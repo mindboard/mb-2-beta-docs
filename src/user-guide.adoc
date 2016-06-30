@@ -78,10 +78,20 @@ This mode is for builder your thoughts as mind-mapping.
 
 ==== Create New Document
 
+*Operation* :
+
 * Tapping image:icons/mb_new.png[title="New Document"] button on ActionBar.
+
+*Illustration* :
+
+image::items/menu-on-actionbar.png[menu-on-actionbar]
+
 
 [NOTE]
 By tapping image:icons/mb_buffers.png[title="Buffers"] button on ActionBar, you can edit previous document.
+
+
+
 
 ////
 起動時はデフォルトの新規ドキュメントが用意されています.
@@ -94,6 +104,8 @@ By tapping image:icons/mb_buffers.png[title="Buffers"] button on ActionBar, you 
 ////
 
 ==== Zooming and Scrolling
+
+*Operation* :
 
 - Zooming : Pinch in/out with two fingers
 - Scrolling : Draging background with one finger
@@ -108,8 +120,14 @@ By tapping image:icons/mb_buffers.png[title="Buffers"] button on ActionBar, you 
 
 ==== Adding Center Node
 
+*Operation* :
+
 . Tapping image:icons/add-center-node.png[title="Add Center Node"] button on Edit Toolbar.
 . Center Node is added on the center of screen.
+
+*Illustration* :
+
+image::items/edit-toolbar-of-map-editor.png[edit-toolbar of map-editor]
 
 [NOTE]
 You can add multiple center nodes in a document.
@@ -122,26 +140,60 @@ You can add multiple center nodes in a document.
 画面の中央に新しいセンターノードが追加されます.
 ////
 
+==== Resizing Center Node
+
+*Operation* :
+
+. Tapping a target center node
+. Dragging a resize handle
+
+*Illustration* :
+
+image::items/resizing-center-node.png[resizing-center-node]
+
 
 ==== Creating a Child Node
 
 //子ノードを作成するには子ノード生成ハンドルをドラッグします.
-image::screenshots/creating-a-child-node.png[creating-a-child-node]
+
+*Operation* :
 
 . Tapping a target node
 . Dragging a creating-child-node-handle
 //. 子ノードを生成するノードをタップ
 //. 子ノード生成ハンドルをドラッグ
 
+*Illustration* :
+
+Creating-child-node-handle of Center Node
+
+image::items/createing-child-node-handle-of-center-node.png[creating-child-node of Center Node]
+
+Creating-child-node-handle of Child Node
+
+image::items/createing-child-node-handle-of-child-node.png[creating-child-node of Child Node]
+
 
 ==== Outputing Ideas on a Node
+
+*Operation* :
 
 . Double tapping a target node by finger or stylus 
 //node handle を finger または stylus でダブルタップして Node Editor にモードを切り替えます.
 
-==== Reorganizing Map ( Changing Structure )
+As a result, entering Node-Editor-Mode.
+
+
+*Illustration* :
+
+image::items/node-activation.png[creating-child-node of Center Node]
+
+
+==== Reorganizing Map ( Changing Node Structure )
 
 //ブランチハンドルをドラッグすることで親ノードを変更できます.
+
+*Operation* :
 
 . Tapping a target node
 . Dragging a branch-change-handle by finger or stylus
@@ -153,8 +205,14 @@ image::screenshots/creating-a-child-node.png[creating-a-child-node]
 . 変更先の親ノードにドロップ
 ////
 
+*Illustration* :
+
+image::items/branch-change-handle.png[branch-change-handle]
+
 
 ==== Deleting a Node
+
+*Operation* :
 
 //node を削除するゴミ箱を使います.
 
@@ -166,12 +224,23 @@ image::screenshots/creating-a-child-node.png[creating-a-child-node]
 . 画面右下の image:icons/mb_trashcan.png[title="Trash"] にドロップ
 ////
 
+*Illustration* :
+
+image::items/delete-node.png[delete-node]
 
 ==== Undo / Redo
 //ほとんどの操作は Undo / Redo に対応しています.
 
-. Tapping image:icons/undo.png[title="Undo"] / image:icons/redo.png[title="Redo"] button on the edit-toolbar
+*Operation* :
+
+. Tapping image:icons/undo.png[title="Undo"] / image:icons/redo.png[title="Redo"] button on the Edit-Toolbar
 //. 編集ツールバー上の image:icons/undo.png[title="Undo"] / image:icons/redo.png[title="Redo"] ボタンをタップ
+
+
+*Illustration* :
+
+image::items/edit-toolbar-of-map-editor.png[edit-toolbar of map-editor]
+
 
 === Node Editor
 
