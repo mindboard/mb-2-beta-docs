@@ -1,4 +1,6 @@
 
+html: index.html
+
 all : index.html pdf
 
 index.html : src/index.adoc src/user-guide.adoc

@@ -55,8 +55,8 @@ And also your feedback will be much appreciated.
 
 === Mode
 
-MindBoard 2 (Beta) has TWO mode in editor activity.
-One is MAP editor mode, another is NODE editor mode.  
+MindBoard 2 (Beta) has *TWO MODE* in editor activity.
+One is *MAP editor mode*, the other is *NODE editor mode*.  
 
 Use *MAP editor mode* when building your thoughts as mind-mapping, and use *NODE editor mode* when output your ideas on a branch.
 To switch these modes by double tap gesture with FINGER.
@@ -123,35 +123,55 @@ You can add multiple center nodes in a document.
 ////
 
 
-==== Creating Child Node
-子ノードを作成するには子ノード生成ハンドルをドラッグします.
+==== Creating a Child Node
 
-. 子ノードを生成するノードをタップ
-. 子ノード生成ハンドルをドラッグ
+//子ノードを作成するには子ノード生成ハンドルをドラッグします.
+image::screenshots/creating-a-child-node.png[creating-a-child-node]
+
+. Tapping a target node
+. Dragging a creating-child-node-handle
+//. 子ノードを生成するノードをタップ
+//. 子ノード生成ハンドルをドラッグ
 
 
-==== Editing Node
-node handle を finger または stylus でダブルタップして Node Editor にモードを切り替えます.
+==== Outputing Ideas on a Node
 
-==== Reorganizing Map ( Changing Branch Structure )
-ブランチハンドルをドラッグすることで親ノードを変更できます.
+. Double tapping a target node by finger or stylus 
+//node handle を finger または stylus でダブルタップして Node Editor にモードを切り替えます.
 
+==== Reorganizing Map ( Changing Structure )
+
+//ブランチハンドルをドラッグすることで親ノードを変更できます.
+
+. Tapping a target node
+. Dragging a branch-change-handle by finger or stylus
+. Dropping a another parent node
+
+////
 . ノードハンドルをタップ
 . ノードと親ノードを結ぶブランチの中間に表示されるブランチハンドルをドラッグ
 . 変更先の親ノードにドロップ
+////
 
 
-==== Deleting Node
-node を削除するゴミ箱を使います.
+==== Deleting a Node
 
+//node を削除するゴミ箱を使います.
+
+. Dragging a target node
+. Dropping it into the image:icons/mb_trashcan.png[title="Trash"] icon
+
+////
 . 削除する node をドラッグ
 . 画面右下の image:icons/mb_trashcan.png[title="Trash"] にドロップ
+////
 
 
-==== Undo/Redo
-ほとんどの操作は Undo / Redo に対応しています.
+==== Undo / Redo
+//ほとんどの操作は Undo / Redo に対応しています.
 
-. 編集ツールバー上の image:icons/undo.png[title="Undo"] / image:icons/redo.png[title="Redo"] ボタンをタップ
+. Tapping image:icons/undo.png[title="Undo"] / image:icons/redo.png[title="Redo"] button on the edit-toolbar
+//. 編集ツールバー上の image:icons/undo.png[title="Undo"] / image:icons/redo.png[title="Redo"] ボタンをタップ
 
 === Node Editor
 
@@ -162,16 +182,27 @@ node イラストの編集を行います.
 map editor mode に戻るには、地の部分を finger でダブルタップするか、画面左上のクローズボタンをタップします.
 ////
 
-Node Editor では以下のことが行えます.
+You can use three type input method in Node Editor.
+//Node Editor  では以下のことが行えます.
 
+- Adding stroks by stylus
+- Inputing Text by keyboard
+- Importing images
+
+////
 * スタイラスによる入力
 * テキストの入力
 * 画像のインポート
+////
 
-これらの作成したイラスト情報は選択して移動/リサイズができます.
+You can move or resize these inputted objects.
+
+//これらの作成したイラスト情報は選択して移動/リサイズができます.
 
 
-==== スタイラスによる入力
+//====スタイラスによる入力
+==== Adding strokes by stylus 
+
 スタイラスを使用してイラストを入力します.
 入力したイラストは finger で囲むことで、移動/リサイズすることができます.
 
