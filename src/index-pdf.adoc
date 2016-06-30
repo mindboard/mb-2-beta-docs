@@ -1,0 +1,16 @@
+= MindBoard 2 (Beta) User Guide
+Tomoaki Oshima <http://www.mindboardapps.com/>
+:doctype: book
+:source-highlighter: coderay
+:toc: left
+:sectnums:
+:sectanchors:
+:icons: font
+:imagesdir: ../images
+
+
+This document explains MindBoard (Beta) Version 0.7.5.
+
+include::user-guide.adoc[]
+
+
