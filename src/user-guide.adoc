@@ -304,6 +304,8 @@ You can move or resize these inputted objects.
 
 ==== Back to Map mode
 
+*Operation* :
+
 * Double tapping on background
 * Or tapping close button on left top corner 
 
@@ -312,33 +314,61 @@ You can move or resize these inputted objects.
 
 == Buffers
 
+The document you are creating resides in an object called a buffer.
+You can change another buffer using buffers menu.
+
+////
 作成したドキュメントはすべてバッファ上に保管されています.
 以前に作成したドキュメントにアクセスするには、以下のようにします.
 
 . ActionBar 上の image:icons/mb_buffers.png[title="Buffers"] ボタンをタップ
 . 表示された一覧から該当のドキュメントを選択
+////
+
+*Operation* :
+
+. Tapping image:icons/mb_buffers.png[title="Buffers"] button on Action Bar
+. Tapping a document to change from buffer list menu.
+
+*Illustration* :
 
 image::buffer-list.png[Buffer-List]
 
 [NOTE]
-現在アクティブなドキュメントには チェックマーク image:icons/active-page.png[title="Active Page Check"] が入ります.
+The active document has check mark image:icons/active-page.png[title="Active Page Check"].
+//現在アクティブなドキュメントには チェックマーク image:icons/active-page.png[title="Active Page Check"] が入ります.
 
 
 == Buffer Manager
 
-バッファ上に保管されているドキュメントを管理します.
-
-. Action Bar 上の image:icons/mb_menu.png[title="Menu"] ボタンをタップ
-. image:icons/mb_buffers.png[title="Buffer Manager"] Buffer Manager を選択
-
 image::buffer-manager.png[Buffer-Manager]
 
+//The document you are editing resides in an object called a buffer.
+//Buffer Manager is activity to manage these buffers.
+You can manage buffers in this activity.
+
+*Operation* :
+
+. Tapping the image:icons/mb_menu.png[title="Menu"] button on Action Bar
+. Tapping the image:icons/mb_buffers.png[title="Buffer Manager"] Buffer Manager menu item from popup menu.
+
+////
+. Action Bar 上の image:icons/mb_menu.png[title="Menu"] ボタンをタップ
+. image:icons/mb_buffers.png[title="Buffer Manager"] Buffer Manager を選択
+////
+
+*Illustration* :
+
+TODO
+
+////
 Buffer Manager Activity では、以下のことができます.
 
 * ドキュメントをゴミ箱に移動
 * ゴミ箱内のドキュメント一覧を表示
 * ドキュメントを Google Drive へエクスポート
 * Google Drive から ドキュメントをインポート
+////
 
 [WARNING]
 ドキュメントのインポート・エクスポート中に Android デバイス画面を回転しないでください.
