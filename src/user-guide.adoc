@@ -145,11 +145,12 @@ You can add multiple center nodes in a document.
 *Operation* :
 
 . Tapping a target center node
-. Dragging a resize handle
+. Dragging *a resize handle*
 
-*Illustration* :
+*Illustration* : a resize handle
 
-image::items/resizing-center-node.png[resizing-center-node]
+
+image::items/a-handle-to-resize-a-center-node.png[resizing-center-node]
 
 
 ==== Creating a Child Node
@@ -159,19 +160,29 @@ image::items/resizing-center-node.png[resizing-center-node]
 *Operation* :
 
 . Tapping a target node
-. Dragging a creating-child-node-handle
+. Dragging *a handle to create a child node*
 //. 子ノードを生成するノードをタップ
 //. 子ノード生成ハンドルをドラッグ
 
 *Illustration* :
 
-Creating-child-node-handle of Center Node
+Two handles to create a child node of a center node
 
-image::items/createing-child-node-handle-of-center-node.png[creating-child-node of Center Node]
+image::items/handles-to-create-a-child-node-of-a-center-node.png[handles to create a child node of a center node]
+
+A handle to create a child node of a child node
+
+image::items/a-handle-to-create-a-child-node-of-a-child-node.png[a handle to create a child node of a child node]
+//image::items/createing-child-node-handle-of-child-node.png[creating-child-node of Child Node]
+
+////
+A center node that has two resize handles
+image::items/createing-child-node-handle-of-center-node.png[handles to create child node of Center Node]
+
 
 Creating-child-node-handle of Child Node
-
 image::items/createing-child-node-handle-of-child-node.png[creating-child-node of Child Node]
+////
 
 
 ==== Outputing Ideas on a Node
