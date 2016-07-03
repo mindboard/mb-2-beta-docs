@@ -48,21 +48,21 @@ And also your feedback will be much appreciated.
 
 === Basic Policy
 
-* Stylus : Outputing your ideas by freehand
-* Finger : Operating your ideas.
+* *By Stylus* : Drawing your ideas freely
+* *By Finger* : Editing and operating your ideas.
 
 //アイデアを描き出すときは Stylus を使用し、描きだしたアイデアを操作するときは finger を使います.
 
 === Mode
 
-MindBoard 2 (Beta) has *TWO MODE* in editor activity.
+MindBoard 2 (Beta) has *TWO MODE* in the editor activity.
 One is *MAP editor mode*, the other is *NODE editor mode*.  
 
 Use *MAP editor mode* when building your thoughts as mind-mapping, and use *NODE editor mode* when output your ideas on a branch.
-To switch these modes by double tap gesture with FINGER.
+In order to switch these modes by double tap gesture with *finger*.
 
 [NOTE]
-When switching from *MAP editor mode* to *NODE editor mode*, it is also enabled double tap gesture with *stylus*.
+When switching from *MAP editor mode* to *NODE editor mode*, it is also enabled to doubletap gesture with *stylus*.
 
 ////
 MindBoard は map-editor mode と node-editor mode の２つのモードを使います.
@@ -88,7 +88,7 @@ image::items/menu-on-actionbar.png[menu-on-actionbar]
 
 
 [NOTE]
-By tapping image:icons/mb_buffers.png[title="Buffers"] button on ActionBar, you can edit previous document.
+By tapping image:icons/mb_buffers.png[title="Buffers"] button on ActionBar, you can open a previous document.
 
 
 
@@ -103,12 +103,12 @@ By tapping image:icons/mb_buffers.png[title="Buffers"] button on ActionBar, you 
 以前に編集していたマップは image:icons/mb_buffers.png[title="Buffers"] ボタンをタップして一覧から選択することで再度呼び出して編集/閲覧できます.
 ////
 
-==== Zooming and Scrolling
+==== Zoom and Scroll
 
 *Operation* :
 
-- Zooming : Pinch in/out with two fingers
-- Scrolling : Draging background with one finger
+- *Zoom* : Pinch in/out with two fingers
+- *Scroll* : Draging background with one finger
 
 ////
 マップ画面では以下の操作でズームとスクロールが可能です.
@@ -122,10 +122,12 @@ By tapping image:icons/mb_buffers.png[title="Buffers"] button on ActionBar, you 
 
 *Operation* :
 
-. Tapping image:icons/add-center-node.png[title="Add Center Node"] button on Edit Toolbar.
+. Tapping image:icons/add-center-node.png[title="Add Center Node"] button on the edit-toolbar.
 . Center Node is added on the center of screen.
 
 *Illustration* :
+
+The Edit Toolbar of map editor mode
 
 image::items/edit-toolbar-of-map-editor.png[edit-toolbar of map-editor]
 
@@ -147,8 +149,9 @@ You can add multiple center nodes in a document.
 . Tapping a target center node
 . Dragging *a resize handle*
 
-*Illustration* : a resize handle
+*Illustration* :
 
+A resize handle
 
 image::items/a-handle-to-resize-a-center-node.png[resizing-center-node]
 
@@ -185,19 +188,25 @@ image::items/createing-child-node-handle-of-child-node.png[creating-child-node o
 ////
 
 
-==== Outputing Ideas on a Node
+==== Outputing Ideas on a branch
 
 *Operation* :
 
-. Double tapping a target node by finger or stylus 
+. Double tapping a target node handle by finger or stylus 
 //node handle を finger または stylus でダブルタップして Node Editor にモードを切り替えます.
 
-As a result, entering Node-Editor-Mode.
+As a result, entering *the node editor mode*.
 
 
 *Illustration* :
 
-image::items/node-activation.png[creating-child-node of Center Node]
+A node handle of a center node
+
+image::items/a-node-handle-of-a-center-node.png[a node handle of a center node]
+
+A node handle of a child node
+
+image::items/a-node-handle-of-a-child-node.png[a node handle of a child node]
 
 
 ==== Reorganizing Map ( Changing Node Structure )
@@ -207,8 +216,8 @@ image::items/node-activation.png[creating-child-node of Center Node]
 *Operation* :
 
 . Tapping a target node
-. Dragging a branch-change-handle by finger or stylus
-. Dropping a another parent node
+. Dragging *a branch change handle*
+. Dropping a another parent node handle
 
 ////
 . ノードハンドルをタップ
@@ -218,7 +227,19 @@ image::items/node-activation.png[creating-child-node of Center Node]
 
 *Illustration* :
 
-image::items/branch-change-handle.png[branch-change-handle]
+A branch change handle
+
+image::items/a-branch-change-handle.png[a-branch-change-handle]
+
+A node handle of a center node
+
+image::items/a-node-handle-of-a-center-node.png[a node handle of a center node]
+
+A node handle of a child node
+
+image::items/a-node-handle-of-a-child-node.png[a node handle of a child node]
+
+
 
 
 ==== Deleting a Node
@@ -237,7 +258,9 @@ image::items/branch-change-handle.png[branch-change-handle]
 
 *Illustration* :
 
-image::items/delete-node.png[delete-node]
+A trashcan on the editor
+
+image::items/a-trashcan-on-the-editor.png[delete-node]
 
 ==== Undo / Redo
 //ほとんどの操作は Undo / Redo に対応しています.
@@ -275,7 +298,7 @@ You can use three type input method in Node Editor.
 * 画像のインポート
 ////
 
-You can move or resize these inputted objects.
+You can move or resize these items.
 
 //これらの作成したイラスト情報は選択して移動/リサイズができます.
 
