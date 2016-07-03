@@ -72,7 +72,7 @@ MindBoard は map-editor mode と node-editor mode の２つのモードを使�
 ( map-editor から node-editor への切り替えは stylus による double-tap ジェスチャーも使用可能です. )
 ////
 
-=== Map Editor
+=== Map Editor Mode
 
 This mode is for builder your thoughts as mind-mapping.
 
@@ -80,7 +80,7 @@ This mode is for builder your thoughts as mind-mapping.
 
 *Operation* :
 
-* Tapping image:icons/mb_new.png[title="New Document"] button on ActionBar.
+* Tapping image:icons/mb_new.png[title="New Document"] button on the action bar.
 
 *Illustration* :
 
@@ -88,7 +88,7 @@ image::items/menu-on-actionbar.png[menu-on-actionbar]
 
 
 [NOTE]
-By tapping image:icons/mb_buffers.png[title="Buffers"] button on ActionBar, you can open a previous document.
+By tapping image:icons/mb_buffers.png[title="Buffers"] button on the action bar, you can open a previous document.
 
 
 
@@ -192,7 +192,7 @@ image::items/createing-child-node-handle-of-child-node.png[creating-child-node o
 
 *Operation* :
 
-. Double tapping a target node handle by finger or stylus 
+. Double tapping a target node handle
 //node handle を finger または stylus でダブルタップして Node Editor にモードを切り替えます.
 
 As a result, entering *the node editor mode*.
@@ -263,20 +263,23 @@ A trashcan on the editor
 image::items/a-trashcan-on-the-editor.png[delete-node]
 
 ==== Undo / Redo
-//ほとんどの操作は Undo / Redo に対応しています.
 
 *Operation* :
 
-. Tapping image:icons/undo.png[title="Undo"] / image:icons/redo.png[title="Redo"] button on the Edit-Toolbar
+. Tapping image:icons/undo.png[title="Undo"] / image:icons/redo.png[title="Redo"] button on the edit toolbar of the map editor mode
+
+//ほとんどの操作は Undo / Redo に対応しています.
 //. 編集ツールバー上の image:icons/undo.png[title="Undo"] / image:icons/redo.png[title="Redo"] ボタンをタップ
 
 
 *Illustration* :
 
+The edit toolbar of map editor mode
+
 image::items/edit-toolbar-of-map-editor.png[edit-toolbar of map-editor]
 
 
-=== Node Editor
+=== Node Editor Mode
 
 This mode is for outputing your ideas on a branch.
 
@@ -304,44 +307,91 @@ You can move or resize these items.
 
 
 //====スタイラスによる入力
-==== Adding strokes by stylus 
+==== Adding drawings by stylus 
 
+Drawing your ideas by stylus.
+You can move and resize drawings that is enclosed by finger
+
+////
 スタイラスを使用してイラストを入力します.
 入力したイラストは finger で囲むことで、移動/リサイズすることができます.
+////
 
-==== テキストの入力
+//==== テキストの入力
+==== Inputting text 
+
+*Operation* :
+
+. Tapping the image:icons/add-text.png[title="Add Text"] button on the edit toolbar of the node editor mode 
+. Inputting text on the dialog
+. Tapping the close button 
+
+You can move and resize text that is selected by finger.
+
+////
 . 編集ツールバー上の image:icons/add-text.png[title="Add Text"] ボタンをタップ
 . テキスト入力ダイアログでテキストを入力
 . 右下のバツボタンをタップ
 
 入力したテキストは、finger でタップして選択することで、移動/リサイズできます.
+////
 
 
-==== 画像のインポート
+//==== 画像のインポート
+==== Importing image
+
+*Operation* :
+
+. Tapping the image:icons/add-image.png[title="Add Image"] button on the edit toolbar of the node editor mode 
+. Selecting an image on the file chooser
+
+You can move and resize image that is selected by finger.
+
+////
 . 編集ツールバー上の image:icons/add-image.png[title="Add Image"] ボタンをタップ
 . 画像選択ダイアログで画像を選択
 
 インポートしたテキストは、finger でタップして選択することで、移動/リサイズできます.
+////
 
-==== コピー＆ペースト
+//==== コピー＆ペースト
+==== Copy and Paste
+
+. Tapping a item ( enclosed drawing or text ) 
+. Tapping the clipboard button on the edit toolbar of node editor mode
+
+[WARNING]
+Currently it's not supported image copy and paste.
+This issue will be fixed in the future.
+
+////
 選択したイラスト / テキストはクリップボードに保管されます.
 編集ツールバー上のクリップボードボタンをタップしてペーストできます.
 
 [WARNING]
 画像のコピー＆ペーストは未対応です.
 将来のバージョンで対応予定です.
+////
 
-==== Undo/Redo
+==== Undo / Redo
+
+*Operation* :
+
+. Tapping image:icons/undo.png[title="Undo"] / image:icons/redo.png[title="Redo"] button on the edit toolbar of the node editor mode
+
+////
 ほとんどの操作は Undo / Redo に対応しています.
 
 . 編集ツールバー上の image:icons/undo.png[title="Undo"] / image:icons/redo.png[title="Redo"] ボタンをタップ
+////
 
 ==== Back to Map mode
 
 *Operation* :
 
-* Double tapping on background
-* Or tapping close button on left top corner 
+. Double tapping on background Or tapping close button on left top corner 
+
+TODO image
 
 // map editor mode に戻るには、地の部分を finger でダブルタップするか、画面左上のクローズボタンをタップします.
 
@@ -384,7 +434,7 @@ You can manage buffers in this activity.
 *Operation* :
 
 . Tapping the image:icons/mb_menu.png[title="Menu"] button on Action Bar
-. Tapping the image:icons/mb_buffers.png[title="Buffer Manager"] Buffer Manager menu item from popup menu.
+. Tapping the image:icons/mb_buffers.png[title="Buffer Manager"] Buffer Manager menu item from the popup menu.
 
 ////
 . Action Bar 上の image:icons/mb_menu.png[title="Menu"] ボタンをタップ
@@ -393,7 +443,7 @@ You can manage buffers in this activity.
 
 *Illustration* :
 
-TODO
+TODO image
 
 ////
 Buffer Manager Activity では、以下のことができます.
@@ -405,45 +455,84 @@ Buffer Manager Activity では、以下のことができます.
 ////
 
 [WARNING]
+Do not rotate device under importing / exporting a document.
+If you rotate, this application will be crushed.
+In this case, you should do again.
+
+This issue will be fixed in the future.
+
+////
 ドキュメントのインポート・エクスポート中に Android デバイス画面を回転しないでください.
 回転した場合、アプリケーションが強制終了することがあります.
 その場合は、処理をもう一度やり直してください.
 この問題は将来のバージョンで修正される予定です.
+////
 
 image::buffer-manager-menu.png[Buffer-Manager-Menu]
 
 === Moving to Trash
 
-選択中のドキュメントをゴミ箱に移動します.
+//選択中のドキュメントをゴミ箱に移動します.
 
+. Tapping a document 
+. Tapping the image:icons/move-to-trash.png[title="Move to Trash"] button on the action bar
+
+////
 . 一覧からドキュメントを選択
 . ActionBar 上の image:icons/move-to-trash.png[title="Move to Trash"] ボタンをタップ
+////
 
 
 === Opening Trash
 
-ゴミ箱内のドキュメント一覧を表示します.
+//ゴミ箱内のドキュメント一覧を表示します.
 
+
+*Operation* :
+
+. Tapping the image:icons/mb_menu.png[title="Menu"] button on the action bar
+. Tapping the image:icons/mb_trashcan.png[title="Trash"] menu item on the popup menu
+
+*Illustration* :
+
+TODO
+
+////
 . ActionBar 上の image:icons/mb_menu.png[title="Menu"] ボタンをタップ
 . image:icons/mb_trashcan.png[title="Trash"] ゴミ箱を表示 をタップ
-
+////
 
 === Exporting Document to Google Drive
 
+*Operation* :
+
+. Tapping a document 
+. Tapping the image:icons/mb_menu.png[title="Menu"] button on the action bar
+. Tapping the image:icons/mb_cloud.png[title="Export"] export button on the popup menu
+
+////
 ドキュメントを Google Drive にエクスポートします.
 
 . 一覧からドキュメントを選択
 . ActionBar 上の image:icons/mb_menu.png[title="Menu"] ボタンをタップ
 . サブメニューから image:icons/mb_cloud.png[title="Export"] エクスポート をタップ
+////
 
 
 
 === Importing Document from Google Drive
 
+*Operation* :
+
+. Tapping the image:icons/mb_menu.png[title="Menu"] button on the action bar
+. Tapping the image:icons/mb_cloud.png[title="Export"] import button on the popup menu
+
+////
 Google Drive からドキュメントをインポートします.
 
 . ActionBar 上の image:icons/mb_menu.png[title="Menu"] ボタンをタップ
 . サブメニューから image:icons/mb_cloud.png[title="Export"] インポート をタップ
+////
 
 
 == Trash

@@ -538,8 +538,8 @@ table.CodeRay td.code>pre{padding:0}
 <ul class="sectlevel2">
 <li><a href="#_basic_policy">2.1. Basic Policy</a></li>
 <li><a href="#_mode">2.2. Mode</a></li>
-<li><a href="#_map_editor">2.3. Map Editor</a></li>
-<li><a href="#_node_editor">2.4. Node Editor</a></li>
+<li><a href="#_map_editor_mode">2.3. Map Editor Mode</a></li>
+<li><a href="#_node_editor_mode">2.4. Node Editor Mode</a></li>
 </ul>
 </li>
 <li><a href="#_buffers">3. Buffers</a></li>
@@ -694,7 +694,7 @@ When switching from <strong>MAP editor mode</strong> to <strong>NODE editor mode
 </div>
 </div>
 <div class="sect2">
-<h3 id="_map_editor"><a class="anchor" href="#_map_editor"></a>2.3. Map Editor</h3>
+<h3 id="_map_editor_mode"><a class="anchor" href="#_map_editor_mode"></a>2.3. Map Editor Mode</h3>
 <div class="paragraph">
 <p>This mode is for builder your thoughts as mind-mapping.</p>
 </div>
@@ -706,7 +706,7 @@ When switching from <strong>MAP editor mode</strong> to <strong>NODE editor mode
 <div class="ulist">
 <ul>
 <li>
-<p>Tapping <span class="image"><img src="images/icons/mb_new.png" alt="mb new" title="New Document"></span> button on ActionBar.</p>
+<p>Tapping <span class="image"><img src="images/icons/mb_new.png" alt="mb new" title="New Document"></span> button on the action bar.</p>
 </li>
 </ul>
 </div>
@@ -725,7 +725,7 @@ When switching from <strong>MAP editor mode</strong> to <strong>NODE editor mode
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-By tapping <span class="image"><img src="images/icons/mb_buffers.png" alt="mb buffers" title="Buffers"></span> button on ActionBar, you can open a previous document.
+By tapping <span class="image"><img src="images/icons/mb_buffers.png" alt="mb buffers" title="Buffers"></span> button on the action bar, you can open a previous document.
 </td>
 </tr>
 </table>
@@ -856,7 +856,7 @@ You can add multiple center nodes in a document.
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Double tapping a target node handle by finger or stylus</p>
+<p>Double tapping a target node handle</p>
 </li>
 </ol>
 </div>
@@ -964,12 +964,15 @@ You can add multiple center nodes in a document.
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Tapping <span class="image"><img src="images/icons/undo.png" alt="undo" title="Undo"></span> / <span class="image"><img src="images/icons/redo.png" alt="redo" title="Redo"></span> button on the Edit-Toolbar</p>
+<p>Tapping <span class="image"><img src="images/icons/undo.png" alt="undo" title="Undo"></span> / <span class="image"><img src="images/icons/redo.png" alt="redo" title="Redo"></span> button on the edit toolbar of the map editor mode</p>
 </li>
 </ol>
 </div>
 <div class="paragraph">
 <p><strong>Illustration</strong> :</p>
+</div>
+<div class="paragraph">
+<p>The edit toolbar of map editor mode</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -979,7 +982,7 @@ You can add multiple center nodes in a document.
 </div>
 </div>
 <div class="sect2">
-<h3 id="_node_editor"><a class="anchor" href="#_node_editor"></a>2.4. Node Editor</h3>
+<h3 id="_node_editor_mode"><a class="anchor" href="#_node_editor_mode"></a>2.4. Node Editor Mode</h3>
 <div class="paragraph">
 <p>This mode is for outputing your ideas on a branch.</p>
 </div>
@@ -1003,52 +1006,64 @@ You can add multiple center nodes in a document.
 <p>You can move or resize these items.</p>
 </div>
 <div class="sect3">
-<h4 id="_adding_strokes_by_stylus"><a class="anchor" href="#_adding_strokes_by_stylus"></a>2.4.1. Adding strokes by stylus</h4>
+<h4 id="_adding_drawings_by_stylus"><a class="anchor" href="#_adding_drawings_by_stylus"></a>2.4.1. Adding drawings by stylus</h4>
 <div class="paragraph">
-<p>スタイラスを使用してイラストを入力します.
-入力したイラストは finger で囲むことで、移動/リサイズすることができます.</p>
+<p>Drawing your ideas by stylus.
+You can move and resize drawings that is enclosed by finger</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_テキストの入力"><a class="anchor" href="#_テキストの入力"></a>2.4.2. テキストの入力</h4>
+<h4 id="_inputting_text"><a class="anchor" href="#_inputting_text"></a>2.4.2. Inputting text</h4>
+<div class="paragraph">
+<p><strong>Operation</strong> :</p>
+</div>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>編集ツールバー上の <span class="image"><img src="images/icons/add-text.png" alt="add text" title="Add Text"></span> ボタンをタップ</p>
+<p>Tapping the <span class="image"><img src="images/icons/add-text.png" alt="add text" title="Add Text"></span> button on the edit toolbar of the node editor mode</p>
 </li>
 <li>
-<p>テキスト入力ダイアログでテキストを入力</p>
+<p>Inputting text on the dialog</p>
 </li>
 <li>
-<p>右下のバツボタンをタップ</p>
+<p>Tapping the close button</p>
 </li>
 </ol>
 </div>
 <div class="paragraph">
-<p>入力したテキストは、finger でタップして選択することで、移動/リサイズできます.</p>
+<p>You can move and resize text that is selected by finger.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_画像のインポート"><a class="anchor" href="#_画像のインポート"></a>2.4.3. 画像のインポート</h4>
+<h4 id="_importing_image"><a class="anchor" href="#_importing_image"></a>2.4.3. Importing image</h4>
+<div class="paragraph">
+<p><strong>Operation</strong> :</p>
+</div>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>編集ツールバー上の <span class="image"><img src="images/icons/add-image.png" alt="add image" title="Add Image"></span> ボタンをタップ</p>
+<p>Tapping the <span class="image"><img src="images/icons/add-image.png" alt="add image" title="Add Image"></span> button on the edit toolbar of the node editor mode</p>
 </li>
 <li>
-<p>画像選択ダイアログで画像を選択</p>
+<p>Selecting an image on the file chooser</p>
 </li>
 </ol>
 </div>
 <div class="paragraph">
-<p>インポートしたテキストは、finger でタップして選択することで、移動/リサイズできます.</p>
+<p>You can move and resize image that is selected by finger.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_コピー_ペースト"><a class="anchor" href="#_コピー_ペースト"></a>2.4.4. コピー＆ペースト</h4>
-<div class="paragraph">
-<p>選択したイラスト / テキストはクリップボードに保管されます.
-編集ツールバー上のクリップボードボタンをタップしてペーストできます.</p>
+<h4 id="_copy_and_paste"><a class="anchor" href="#_copy_and_paste"></a>2.4.4. Copy and Paste</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Tapping a item ( enclosed drawing or text )</p>
+</li>
+<li>
+<p>Tapping the clipboard button on the edit toolbar of node editor mode</p>
+</li>
+</ol>
 </div>
 <div class="admonitionblock warning">
 <table>
@@ -1057,22 +1072,22 @@ You can add multiple center nodes in a document.
 <i class="fa icon-warning" title="Warning"></i>
 </td>
 <td class="content">
-画像のコピー＆ペーストは未対応です.
-将来のバージョンで対応予定です.
+Currently it&#8217;s not supported image copy and paste.
+This issue will be fixed in the future.
 </td>
 </tr>
 </table>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_undo_redo_2"><a class="anchor" href="#_undo_redo_2"></a>2.4.5. Undo/Redo</h4>
+<h4 id="_undo_redo_2"><a class="anchor" href="#_undo_redo_2"></a>2.4.5. Undo / Redo</h4>
 <div class="paragraph">
-<p>ほとんどの操作は Undo / Redo に対応しています.</p>
+<p><strong>Operation</strong> :</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>編集ツールバー上の <span class="image"><img src="images/icons/undo.png" alt="undo" title="Undo"></span> / <span class="image"><img src="images/icons/redo.png" alt="redo" title="Redo"></span> ボタンをタップ</p>
+<p>Tapping <span class="image"><img src="images/icons/undo.png" alt="undo" title="Undo"></span> / <span class="image"><img src="images/icons/redo.png" alt="redo" title="Redo"></span> button on the edit toolbar of the node editor mode</p>
 </li>
 </ol>
 </div>
@@ -1082,15 +1097,15 @@ You can add multiple center nodes in a document.
 <div class="paragraph">
 <p><strong>Operation</strong> :</p>
 </div>
-<div class="ulist">
-<ul>
+<div class="olist arabic">
+<ol class="arabic">
 <li>
-<p>Double tapping on background</p>
+<p>Double tapping on background Or tapping close button on left top corner</p>
 </li>
-<li>
-<p>Or tapping close button on left top corner</p>
-</li>
-</ul>
+</ol>
+</div>
+<div class="paragraph">
+<p>TODO image</p>
 </div>
 </div>
 </div>
@@ -1158,7 +1173,63 @@ The active document has check mark <span class="image"><img src="images/icons/ac
 <p>Tapping the <span class="image"><img src="images/icons/mb_menu.png" alt="mb menu" title="Menu"></span> button on Action Bar</p>
 </li>
 <li>
-<p>Tapping the <span class="image"><img src="images/icons/mb_buffers.png" alt="mb buffers" title="Buffer Manager"></span> Buffer Manager menu item from popup menu.</p>
+<p>Tapping the <span class="image"><img src="images/icons/mb_buffers.png" alt="mb buffers" title="Buffer Manager"></span> Buffer Manager menu item from the popup menu.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p><strong>Illustration</strong> :</p>
+</div>
+<div class="paragraph">
+<p>TODO image</p>
+</div>
+<div class="admonitionblock warning">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-warning" title="Warning"></i>
+</td>
+<td class="content">
+Do not rotate device under importing / exporting a document.
+If you rotate, this application will be crushed.
+In this case, you should do again.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>This issue will be fixed in the future.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/buffer-manager-menu.png" alt="Buffer-Manager-Menu">
+</div>
+</div>
+<div class="sect2">
+<h3 id="_moving_to_trash"><a class="anchor" href="#_moving_to_trash"></a>4.1. Moving to Trash</h3>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Tapping a document</p>
+</li>
+<li>
+<p>Tapping the <span class="image"><img src="images/icons/move-to-trash.png" alt="move to trash" title="Move to Trash"></span> button on the action bar</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_opening_trash"><a class="anchor" href="#_opening_trash"></a>4.2. Opening Trash</h3>
+<div class="paragraph">
+<p><strong>Operation</strong> :</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Tapping the <span class="image"><img src="images/icons/mb_menu.png" alt="mb menu" title="Menu"></span> button on the action bar</p>
+</li>
+<li>
+<p>Tapping the <span class="image"><img src="images/icons/mb_trashcan.png" alt="mb trashcan" title="Trash"></span> menu item on the popup menu</p>
 </li>
 </ol>
 </div>
@@ -1168,73 +1239,22 @@ The active document has check mark <span class="image"><img src="images/icons/ac
 <div class="paragraph">
 <p>TODO</p>
 </div>
-<div class="admonitionblock warning">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-warning" title="Warning"></i>
-</td>
-<td class="content">
-ドキュメントのインポート・エクスポート中に Android デバイス画面を回転しないでください.
-回転した場合、アプリケーションが強制終了することがあります.
-その場合は、処理をもう一度やり直してください.
-この問題は将来のバージョンで修正される予定です.
-</td>
-</tr>
-</table>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="images/buffer-manager-menu.png" alt="Buffer-Manager-Menu">
-</div>
-</div>
-<div class="sect2">
-<h3 id="_moving_to_trash"><a class="anchor" href="#_moving_to_trash"></a>4.1. Moving to Trash</h3>
-<div class="paragraph">
-<p>選択中のドキュメントをゴミ箱に移動します.</p>
-</div>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>一覧からドキュメントを選択</p>
-</li>
-<li>
-<p>ActionBar 上の <span class="image"><img src="images/icons/move-to-trash.png" alt="move to trash" title="Move to Trash"></span> ボタンをタップ</p>
-</li>
-</ol>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_opening_trash"><a class="anchor" href="#_opening_trash"></a>4.2. Opening Trash</h3>
-<div class="paragraph">
-<p>ゴミ箱内のドキュメント一覧を表示します.</p>
-</div>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>ActionBar 上の <span class="image"><img src="images/icons/mb_menu.png" alt="mb menu" title="Menu"></span> ボタンをタップ</p>
-</li>
-<li>
-<p><span class="image"><img src="images/icons/mb_trashcan.png" alt="mb trashcan" title="Trash"></span> ゴミ箱を表示 をタップ</p>
-</li>
-</ol>
-</div>
 </div>
 <div class="sect2">
 <h3 id="_exporting_document_to_google_drive"><a class="anchor" href="#_exporting_document_to_google_drive"></a>4.3. Exporting Document to Google Drive</h3>
 <div class="paragraph">
-<p>ドキュメントを Google Drive にエクスポートします.</p>
+<p><strong>Operation</strong> :</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>一覧からドキュメントを選択</p>
+<p>Tapping a document</p>
 </li>
 <li>
-<p>ActionBar 上の <span class="image"><img src="images/icons/mb_menu.png" alt="mb menu" title="Menu"></span> ボタンをタップ</p>
+<p>Tapping the <span class="image"><img src="images/icons/mb_menu.png" alt="mb menu" title="Menu"></span> button on the action bar</p>
 </li>
 <li>
-<p>サブメニューから <span class="image"><img src="images/icons/mb_cloud.png" alt="mb cloud" title="Export"></span> エクスポート をタップ</p>
+<p>Tapping the <span class="image"><img src="images/icons/mb_cloud.png" alt="mb cloud" title="Export"></span> export button on the popup menu</p>
 </li>
 </ol>
 </div>
@@ -1242,15 +1262,15 @@ The active document has check mark <span class="image"><img src="images/icons/ac
 <div class="sect2">
 <h3 id="_importing_document_from_google_drive"><a class="anchor" href="#_importing_document_from_google_drive"></a>4.4. Importing Document from Google Drive</h3>
 <div class="paragraph">
-<p>Google Drive からドキュメントをインポートします.</p>
+<p><strong>Operation</strong> :</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>ActionBar 上の <span class="image"><img src="images/icons/mb_menu.png" alt="mb menu" title="Menu"></span> ボタンをタップ</p>
+<p>Tapping the <span class="image"><img src="images/icons/mb_menu.png" alt="mb menu" title="Menu"></span> button on the action bar</p>
 </li>
 <li>
-<p>サブメニューから <span class="image"><img src="images/icons/mb_cloud.png" alt="mb cloud" title="Export"></span> インポート をタップ</p>
+<p>Tapping the <span class="image"><img src="images/icons/mb_cloud.png" alt="mb cloud" title="Export"></span> import button on the popup menu</p>
 </li>
 </ol>
 </div>
