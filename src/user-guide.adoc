@@ -1,7 +1,7 @@
 
 = Introduction
 
-image::mind-mapping-example.png[MindBoard 2 (Beta)]
+image::misc/mind-mapping-example.png[MindBoard 2 (Beta)]
 
 == About MindBoard 2 (Beta)
 
@@ -416,7 +416,7 @@ You can change another buffer using buffers menu.
 
 *Illustration* :
 
-image::buffer-list.png[Buffer-List]
+image::misc/buffer-list.png[Buffer-List]
 
 [NOTE]
 The active document has check mark image:icons/active-page.png[title="Active Page Check"].
@@ -425,10 +425,11 @@ The active document has check mark image:icons/active-page.png[title="Active Pag
 
 == Buffer Manager
 
-image::buffer-manager.png[Buffer-Manager]
+image::misc/buffer-manager.png[Buffer-Manager]
 
 //The document you are editing resides in an object called a buffer.
 //Buffer Manager is activity to manage these buffers.
+
 You can manage buffers in this activity.
 
 *Operation* :
@@ -468,7 +469,7 @@ This issue will be fixed in the future.
 この問題は将来のバージョンで修正される予定です.
 ////
 
-image::buffer-manager-menu.png[Buffer-Manager-Menu]
+image::misc/buffer-manager-menu.png[Buffer-Manager-Menu]
 
 === Moving to Trash
 
@@ -537,25 +538,67 @@ Google Drive からドキュメントをインポートします.
 
 == Trash
 
-不要なドキュメントを管理します.
+//不要なドキュメントを管理します.
+//Trash Activity Features
 
-Trash Activity では以下のことができます.
+You can manage trashed documents in this activity.
 
+- Putting back a document
+- Emptying Trash, deleting all documents in the trash forever
+
+////
 . ドキュメントを元に戻す
 . ドキュメントを完全に削除
+////
 
-=== Put Back
+=== Putting Back
 
+. Tapping a document from the list to select it
+. Tapping the image:icons/put-back.png[title="Put Back"] button on the action bar
+
+////
 ゴミ箱内のドキュメントをバッファに戻します.
-
 . 一覧から元に戻すドキュメントを選択
 . ActionBar 上の image:icons/put-back.png[title="Put Back"] ボタンをタップ
+////
 
 === Emptying Trash
 
+//Deleting all doucments forever
+
+. Tapping the image:icons/empty-trash.png[title="Empty Trash"] button on the action bar
+. Tapping Yes button on the confirm dialog
+
+TODO confirm dialog screenshot
+
+[WARNING]
+This action cause deleteing all documents in the trash forever.
+
+
+////
 . ActionBar 上の image:icons/empty-trash.png[title="Empty Trash"] ボタンをタップ
 . 確認ダイアログの表示
 . Yes を選択して完全削除を実行
+////
 
 == Settings
 
+image::items/settings-main.png[Settings]
+
+//You can  trashed documents in this activity.
+
+This activity features :
+
+* Pen
+** Calibration
+* Misc. 
+** Graph Line Opacity  
+** Back Key
+** Status Bar
+
+
+=== Calibration Settings
+
+image::items/settings-calibration.png[Calibration Settings]
+
+It is possible to keep 3 calibration presets of stylus.

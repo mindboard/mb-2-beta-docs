@@ -553,11 +553,15 @@ table.CodeRay td.code>pre{padding:0}
 </li>
 <li><a href="#_trash">5. Trash</a>
 <ul class="sectlevel2">
-<li><a href="#_put_back">5.1. Put Back</a></li>
+<li><a href="#_putting_back">5.1. Putting Back</a></li>
 <li><a href="#_emptying_trash">5.2. Emptying Trash</a></li>
 </ul>
 </li>
-<li><a href="#_settings">6. Settings</a></li>
+<li><a href="#_settings">6. Settings</a>
+<ul class="sectlevel2">
+<li><a href="#_calibration_settings">6.1. Calibration Settings</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -567,7 +571,7 @@ table.CodeRay td.code>pre{padding:0}
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>This document explains MindBoard (Beta) Version 0.7.5.</p>
+<p>This document explains MindBoard (Beta) <span class="image"><img src="images/icons/mb-2-beta-app-icon-24.png" alt="MindBoard 2 (Beta)"></span> Version 0.7.5.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -588,7 +592,7 @@ table.CodeRay td.code>pre{padding:0}
 <div class="content">
 <div class="imageblock">
 <div class="content">
-<img src="images/mind-mapping-example.png" alt="MindBoard 2 (Beta)">
+<img src="images/misc/mind-mapping-example.png" alt="MindBoard 2 (Beta)">
 </div>
 </div>
 </div>
@@ -1136,7 +1140,7 @@ You can change another buffer using buffers menu.</p>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="images/buffer-list.png" alt="Buffer-List">
+<img src="images/misc/buffer-list.png" alt="Buffer-List">
 </div>
 </div>
 <div class="admonitionblock note">
@@ -1158,7 +1162,7 @@ The active document has check mark <span class="image"><img src="images/icons/ac
 <div class="sectionbody">
 <div class="imageblock">
 <div class="content">
-<img src="images/buffer-manager.png" alt="Buffer-Manager">
+<img src="images/misc/buffer-manager.png" alt="Buffer-Manager">
 </div>
 </div>
 <div class="paragraph">
@@ -1202,7 +1206,7 @@ In this case, you should do again.
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="images/buffer-manager-menu.png" alt="Buffer-Manager-Menu">
+<img src="images/misc/buffer-manager-menu.png" alt="Buffer-Manager-Menu">
 </div>
 </div>
 <div class="sect2">
@@ -1281,33 +1285,27 @@ In this case, you should do again.
 <h2 id="_trash"><a class="anchor" href="#_trash"></a>5. Trash</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>不要なドキュメントを管理します.</p>
+<p>You can manage trashed documents in this activity.</p>
 </div>
-<div class="paragraph">
-<p>Trash Activity では以下のことができます.</p>
-</div>
-<div class="olist arabic">
-<ol class="arabic">
+<div class="ulist">
+<ul>
 <li>
-<p>ドキュメントを元に戻す</p>
+<p>Putting back a document</p>
 </li>
 <li>
-<p>ドキュメントを完全に削除</p>
+<p>Emptying Trash, deleting all documents in the trash forever</p>
 </li>
-</ol>
+</ul>
 </div>
 <div class="sect2">
-<h3 id="_put_back"><a class="anchor" href="#_put_back"></a>5.1. Put Back</h3>
-<div class="paragraph">
-<p>ゴミ箱内のドキュメントをバッファに戻します.</p>
-</div>
+<h3 id="_putting_back"><a class="anchor" href="#_putting_back"></a>5.1. Putting Back</h3>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>一覧から元に戻すドキュメントを選択</p>
+<p>Tapping a document from the list to select it</p>
 </li>
 <li>
-<p>ActionBar 上の <span class="image"><img src="images/icons/put-back.png" alt="put back" title="Put Back"></span> ボタンをタップ</p>
+<p>Tapping the <span class="image"><img src="images/icons/put-back.png" alt="put back" title="Put Back"></span> button on the action bar</p>
 </li>
 </ol>
 </div>
@@ -1317,15 +1315,27 @@ In this case, you should do again.
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>ActionBar 上の <span class="image"><img src="images/icons/empty-trash.png" alt="empty trash" title="Empty Trash"></span> ボタンをタップ</p>
+<p>Tapping the <span class="image"><img src="images/icons/empty-trash.png" alt="empty trash" title="Empty Trash"></span> button on the action bar</p>
 </li>
 <li>
-<p>確認ダイアログの表示</p>
-</li>
-<li>
-<p>Yes を選択して完全削除を実行</p>
+<p>Tapping Yes button on the confirm dialog</p>
 </li>
 </ol>
+</div>
+<div class="paragraph">
+<p>TODO confirm dialog screenshot</p>
+</div>
+<div class="admonitionblock warning">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-warning" title="Warning"></i>
+</td>
+<td class="content">
+This action cause deleteing all documents in the trash forever.
+</td>
+</tr>
+</table>
 </div>
 </div>
 </div>
@@ -1333,13 +1343,61 @@ In this case, you should do again.
 <div class="sect1">
 <h2 id="_settings"><a class="anchor" href="#_settings"></a>6. Settings</h2>
 <div class="sectionbody">
-
+<div class="imageblock">
+<div class="content">
+<img src="images/items/settings-main.png" alt="Settings">
+</div>
+</div>
+<div class="paragraph">
+<p>This activity features :</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Pen</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Calibration</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Misc.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Graph Line Opacity</p>
+</li>
+<li>
+<p>Back Key</p>
+</li>
+<li>
+<p>Status Bar</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="sect2">
+<h3 id="_calibration_settings"><a class="anchor" href="#_calibration_settings"></a>6.1. Calibration Settings</h3>
+<div class="imageblock">
+<div class="content">
+<img src="images/items/settings-calibration.png" alt="Calibration Settings">
+</div>
+</div>
+<div class="paragraph">
+<p>It is possible to keep 3 calibration presets of stylus.</p>
+</div>
+</div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2016-06-30 10:08:32 JST
+Last updated 2016-07-05 07:31:08 JST
 </div>
 </div>
 </body>
