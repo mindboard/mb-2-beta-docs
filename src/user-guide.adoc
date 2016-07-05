@@ -5,8 +5,8 @@ image::misc/mind-mapping-example.png[MindBoard 2 (Beta)]
 
 == About MindBoard 2 (Beta)
 
-MindBoard 2 (Beta) is a freehand mind-mapping application with stylus for Android tablet.
-And this edition has text input and image import feature.
+MindBoard 2 (Beta) is a freehand mind-mapping application with stylus for Android tablets.
+In addition, this edition has text input and image import feature.
 
 === Basic Concept
 
@@ -57,14 +57,14 @@ image::screenshots/editor-activity-map-edit-mode.png[Editor Activity]
 
 === Mode
 
-MindBoard 2 (Beta) has *TWO MODE* in the editor activity.
-One is *MAP editor mode*, the other is *NODE editor mode*.  
+MindBoard 2 (Beta) has *two mode* in the editor activity.
+One is *Map Edit Mode*, the other is *Node Edit Mode*.  
 
-Use *MAP editor mode* when building your thoughts as mind-mapping, and use *NODE editor mode* when output your ideas on a branch.
+Use *Map Edit Mode* when building your thoughts as mind-mapping, and use *Node Edit Mode* when output your ideas on a branch.
 In order to switch these modes by *double tap gesture with finger*.
 
 [NOTE]
-In order to switch from *MAP editor mode* to *NODE editor mode*, you can also use doubletap gesture with *stylus*.
+In order to switch from *Map Edit Mode* to *Node Edit Mode*, you can also use doubletap gesture with *stylus*.
 
 ////
 MindBoard は map-editor mode と node-editor mode の２つのモードを使います.
@@ -97,7 +97,7 @@ This mode is for builder your thoughts as mind-mapping.
 
 *Operation* :
 
-- *Zoom* : Pinch in/out with two fingers
+- *Zoom* : Pinch in / out with two fingers
 - *Scroll* : Draging background with one finger
 
 ////
@@ -112,12 +112,12 @@ This mode is for builder your thoughts as mind-mapping.
 
 *Operation* :
 
-. Tapping image:icons/add-center-node.png[title="Add Center Node"] button on the edit-toolbar.
-. Center Node is added on the center of screen.
+. Tapping the image:icons/add-center-node.png[title="Add Center Node"] button on the edit-toolbar.
+. Center Node is added on the center of the screen.
 
 *Illustration* :
 
-//The Edit Toolbar of map editor mode
+//The Edit Toolbar of map edit mode
 
 image::items/edit-toolbar-of-map-editor.png[title="Edit Toolbar of map edit mode"]
 
@@ -136,14 +136,14 @@ You can add multiple center nodes in a document.
 
 *Operation* :
 
-. Tapping a target center node
+. Tapping a target center node to select
 . Dragging *a resize handle*
 
 *Illustration* :
 
-A resize handle
+//A resize handle
 
-image::items/a-handle-to-resize-a-center-node.png[title="Resize Handle of center node"]
+image::items/a-handle-to-resize-a-center-node.png[title="A Resize Handle of center node"]
 
 
 ==== Creating a Child Node
@@ -152,8 +152,9 @@ image::items/a-handle-to-resize-a-center-node.png[title="Resize Handle of center
 
 *Operation* :
 
-. Tapping a target node
+. Tapping a target node to select
 . Dragging *a handle to create a child node*
+
 //. 子ノードを生成するノードをタップ
 //. 子ノード生成ハンドルをドラッグ
 
@@ -166,7 +167,6 @@ image::items/handles-to-create-a-child-node-of-a-center-node.png[title="Two Hand
 //A handle to create a child node of a child node
 
 image::items/a-handle-to-create-a-child-node-of-a-child-node.png[title="A Handle to create a child node of a child node"]
-//image::items/createing-child-node-handle-of-child-node.png[creating-child-node of Child Node]
 
 ////
 A center node that has two resize handles
@@ -178,14 +178,14 @@ image::items/createing-child-node-handle-of-child-node.png[creating-child-node o
 ////
 
 
-==== Outputing Ideas on a branch
+==== Outputing Ideas on a center node or a branch
 
-*Operation* :
+*Operation* : How to enter the Node Edit Mode
 
 . Double tapping a target node handle
-//node handle を finger または stylus でダブルタップして Node Editor にモードを切り替えます.
 
-As a result, entering *the node editor mode*.
+As a result, entering *the Node Edit Mode*. 
+You can draw your ideas there.
 
 
 *Illustration* :
@@ -205,7 +205,7 @@ image::items/a-node-handle-of-a-child-node.png[title="A Node Handle of a child n
 
 *Operation* :
 
-. Tapping a target node
+. Tapping a target node to select
 . Dragging *a branch change handle*
 . Dropping another parent node handle
 
@@ -258,15 +258,13 @@ image::items/a-trashcan-on-the-editor.png[title="Trashcan"]
 
 *Operation* :
 
-. Tapping image:icons/undo.png[title="Undo"] / image:icons/redo.png[title="Redo"] button on the edit toolbar of the map editor mode
+. Tapping the image:icons/undo.png[title="Undo"] / image:icons/redo.png[title="Redo"] button on the edit toolbar of the Map Edit Mode
 
 //ほとんどの操作は Undo / Redo に対応しています.
 //. 編集ツールバー上の image:icons/undo.png[title="Undo"] / image:icons/redo.png[title="Redo"] ボタンをタップ
 
 
 *Illustration* :
-
-//The edit toolbar of map editor mode
 
 image::items/edit-toolbar-of-map-editor.png[title="Edit Toolbar of map edit mode"]
 
@@ -279,7 +277,7 @@ This mode is for outputing your ideas on a branch.
 
 ////
 node イラストの編集を行います.
-map editor mode に戻るには、地の部分を finger でダブルタップするか、画面左上のクローズボタンをタップします.
+map edit mode に戻るには、地の部分を finger でダブルタップするか、画面左上のクローズボタンをタップします.
 ////
 
 You can use three type input method.
@@ -331,7 +329,7 @@ image::items/pen-and-eraser-tool.png[title="Pen and Eraser"]
 
 *Operation* :
 
-. Tapping the image:icons/add-text.png[title="Add Text"] button on the edit toolbar of the node editor mode 
+. Tapping the image:icons/add-text.png[title="Add Text"] button on the edit toolbar of the Node Edit Mode 
 . Inputting text on the dialog
 . Tapping the close button 
 
@@ -355,7 +353,7 @@ You can move and resize added text that is selected by finger.
 
 *Operation* :
 
-. Tapping the image:icons/add-image.png[title="Add Image"] button on the edit toolbar of the node editor mode 
+. Tapping the image:icons/add-image.png[title="Add Image"] button on the edit toolbar of the Node Edit Mode 
 . Selecting an image on the file chooser
 
 *Illustration* :
@@ -377,7 +375,7 @@ You can move and resize imported image that is selected by finger.
 *Operation* :
 
 . Tapping a item ( enclosed drawing or text ) 
-. Tapping the clipboard button on the edit toolbar of node editor mode
+. Tapping the clipboard button on the edit toolbar of Node Edit Mode
 
 *Illustration* :
 
@@ -400,7 +398,7 @@ This issue will be fixed in the future.
 
 *Operation* :
 
-. Tapping image:icons/undo.png[title="Undo"] / image:icons/redo.png[title="Redo"] button on the edit toolbar of the node editor mode
+. Tapping the image:icons/undo.png[title="Undo"] / image:icons/redo.png[title="Redo"] button on the edit toolbar of the Node Edit Mode
 
 *Illustration* :
 
@@ -422,7 +420,7 @@ image::items/edit-toolbar-of-node-edit.png[title="Toolbar of node edit mode"]
 
 image::screenshots/back-to-map-mode.png[title="Back to Map Edit Mode"]
 
-// map editor mode に戻るには、地の部分を finger でダブルタップするか、画面左上のクローズボタンをタップします.
+// map edit mode に戻るには、地の部分を finger でダブルタップするか、画面左上のクローズボタンをタップします.
 
 === Menu
 
@@ -432,13 +430,13 @@ image::items/menu-on-actionbar.png[title="menu on the action bar"]
 
 *Operation* :
 
-* Tapping image:icons/mb_new.png[title="New Document"] button on the action bar.
+* Tapping the image:icons/mb_new.png[title="New Document"] button on the action bar.
 
 
 
 
 [NOTE]
-By tapping image:icons/mb_buffers.png[title="Buffers"] button on the action bar, you can open a previous document.
+By tapping the image:icons/mb_buffers.png[title="Buffers"] button on the action bar, you can open a previous document.
 
 
 ==== Buffers
@@ -456,7 +454,7 @@ You can change another buffer using buffers menu.
 
 *Operation* :
 
-. Tapping image:icons/mb_buffers.png[title="Buffers"] button on Action Bar
+. Tapping the image:icons/mb_buffers.png[title="Buffers"] button on Action Bar
 . Tapping a document to change from buffer list menu.
 
 *Illustration* :
@@ -464,7 +462,7 @@ You can change another buffer using buffers menu.
 image::misc/buffer-list.png[title="Buffer List"]
 
 [NOTE]
-The active document has check mark image:icons/active-page.png[title="Active Page Check"].
+The active document has check mark like image:icons/active-page.png[title="Active Page Check"].
 //現在アクティブなドキュメントには チェックマーク image:icons/active-page.png[title="Active Page Check"] が入ります.
 
 
