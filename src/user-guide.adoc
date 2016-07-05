@@ -76,20 +76,6 @@ MindBoard は map-editor mode と node-editor mode の２つのモードを使�
 
 This mode is for builder your thoughts as mind-mapping.
 
-==== Create New Document
-
-*Operation* :
-
-* Tapping image:icons/mb_new.png[title="New Document"] button on the action bar.
-
-*Illustration* :
-
-image::items/menu-on-actionbar.png[menu-on-actionbar]
-
-
-[NOTE]
-By tapping image:icons/mb_buffers.png[title="Buffers"] button on the action bar, you can open a previous document.
-
 
 
 
@@ -395,8 +381,25 @@ TODO image
 
 // map editor mode に戻るには、地の部分を finger でダブルタップするか、画面左上のクローズボタンをタップします.
 
+=== Menu
 
-== Buffers
+image::items/menu-on-actionbar.png[title="menu on the actionbar"]
+
+==== New Document
+
+*Operation* :
+
+* Tapping image:icons/mb_new.png[title="New Document"] button on the action bar.
+
+
+
+
+[NOTE]
+By tapping image:icons/mb_buffers.png[title="Buffers"] button on the action bar, you can open a previous document.
+
+
+
+==== Buffers
 
 The document you are creating resides in an object called a buffer.
 You can change another buffer using buffers menu.
@@ -416,51 +419,39 @@ You can change another buffer using buffers menu.
 
 *Illustration* :
 
-image::misc/buffer-list.png[Buffer-List]
+image::misc/buffer-list.png[title="Buffer-List"]
 
 [NOTE]
 The active document has check mark image:icons/active-page.png[title="Active Page Check"].
 //現在アクティブなドキュメントには チェックマーク image:icons/active-page.png[title="Active Page Check"] が入ります.
 
 
-== Buffer Manager
+==== Buffer Manager
 
-image::misc/buffer-manager.png[Buffer-Manager]
-
-//The document you are editing resides in an object called a buffer.
-//Buffer Manager is activity to manage these buffers.
-
-You can manage buffers in this activity.
+Entering Buffer Manager from Editor.
 
 *Operation* :
 
 . Tapping the image:icons/mb_menu.png[title="Menu"] button on Action Bar
 . Tapping the image:icons/mb_buffers.png[title="Buffer Manager"] Buffer Manager menu item from the popup menu.
 
-////
-. Action Bar 上の image:icons/mb_menu.png[title="Menu"] ボタンをタップ
-. image:icons/mb_buffers.png[title="Buffer Manager"] Buffer Manager を選択
-////
-
 *Illustration* :
 
 TODO image
 
-////
-Buffer Manager Activity では、以下のことができます.
 
-* ドキュメントをゴミ箱に移動
-* ゴミ箱内のドキュメント一覧を表示
-* ドキュメントを Google Drive へエクスポート
-* Google Drive から ドキュメントをインポート
-////
+== Buffer Manager
 
-[WARNING]
-Do not rotate device under importing / exporting a document.
-If you rotate, this application will be crushed.
-In this case, you should do again.
+image::misc/buffer-manager.png[title="Buffer-Manager"]
 
-This issue will be fixed in the future.
+Buffer Manager Features :
+
+* Move a document to the trash
+* Open the trash
+* Exporting / Importing a doucment
+
+
+
 
 ////
 ドキュメントのインポート・エクスポート中に Android デバイス画面を回転しないでください.
@@ -469,13 +460,15 @@ This issue will be fixed in the future.
 この問題は将来のバージョンで修正される予定です.
 ////
 
-image::misc/buffer-manager-menu.png[Buffer-Manager-Menu]
+//image::misc/buffer-manager-menu.png[Buffer-Manager-Menu]
 
-=== Moving to Trash
+=== Move to trash
 
-//選択中のドキュメントをゴミ箱に移動します.
+Moving a document to the trash.
 
-. Tapping a document 
+*Operation* :
+
+. Tapping a document from the list to select
 . Tapping the image:icons/move-to-trash.png[title="Move to Trash"] button on the action bar
 
 ////
@@ -484,7 +477,7 @@ image::misc/buffer-manager-menu.png[Buffer-Manager-Menu]
 ////
 
 
-=== Opening Trash
+=== Open Trash
 
 //ゴミ箱内のドキュメント一覧を表示します.
 
@@ -496,13 +489,37 @@ image::misc/buffer-manager-menu.png[Buffer-Manager-Menu]
 
 *Illustration* :
 
-TODO
+image::misc/buffer-manager-menu-open-trash.png[title="Open Trash"]
+
+
+
+=== Export / Import
+
+Exporting a document to Google Drive / Importing a document from Google Drive.
+
+*Operation* :
+
+. Tapping the image:icons/mb_menu.png[title="Menu"] button on Action Bar
+. Tapping the image:icons/mb_cloud.png[title="Cloud"] Export / image:icons/mb_cloud.png[title="Cloud"] Import menu item from the popup menu.
+
+*Illustration* :
+
+image::misc/buffer-manager-menu-export-import.png[title="Export / Import"]
+
+
+[WARNING]
+Do not rotate device under importing / exporting a document.
+If you rotate, this application will be crushed.
+In this case, you should do again.
+
+This issue will be fixed in the future.
+
+
+
+
+
 
 ////
-. ActionBar 上の image:icons/mb_menu.png[title="Menu"] ボタンをタップ
-. image:icons/mb_trashcan.png[title="Trash"] ゴミ箱を表示 をタップ
-////
-
 === Exporting Document to Google Drive
 
 *Operation* :
@@ -511,28 +528,12 @@ TODO
 . Tapping the image:icons/mb_menu.png[title="Menu"] button on the action bar
 . Tapping the image:icons/mb_cloud.png[title="Export"] export button on the popup menu
 
-////
-ドキュメントを Google Drive にエクスポートします.
-
-. 一覧からドキュメントを選択
-. ActionBar 上の image:icons/mb_menu.png[title="Menu"] ボタンをタップ
-. サブメニューから image:icons/mb_cloud.png[title="Export"] エクスポート をタップ
-////
-
-
-
 === Importing Document from Google Drive
 
 *Operation* :
 
 . Tapping the image:icons/mb_menu.png[title="Menu"] button on the action bar
 . Tapping the image:icons/mb_cloud.png[title="Export"] import button on the popup menu
-
-////
-Google Drive からドキュメントをインポートします.
-
-. ActionBar 上の image:icons/mb_menu.png[title="Menu"] ボタンをタップ
-. サブメニューから image:icons/mb_cloud.png[title="Export"] インポート をタップ
 ////
 
 
@@ -542,6 +543,9 @@ Google Drive からドキュメントをインポートします.
 //Trash Activity Features
 
 You can manage trashed documents in this activity.
+
+
+*Features* :
 
 - Putting back a document
 - Emptying Trash, deleting all documents in the trash forever
@@ -583,11 +587,12 @@ This action cause deleteing all documents in the trash forever.
 
 == Settings
 
-image::items/settings-main.png[Settings]
+image::items/settings-main.png[title="Settings"]
 
-//You can  trashed documents in this activity.
+//You can   trashed documents in this activity.
+//This activity features :
 
-This activity features :
+*Features* :
 
 * Pen
 ** Calibration
@@ -599,6 +604,6 @@ This activity features :
 
 === Calibration Settings
 
-image::items/settings-calibration.png[Calibration Settings]
+image::items/settings-calibration.png[title="Calibration Settings"]
 
 It is possible to keep 3 calibration presets of stylus.
