@@ -285,8 +285,7 @@ map editor mode に戻るには、地の部分を finger でダブルタップ�
 You can use three type input method in Node Editor.
 //Node Editor  では以下のことが行えます.
 
-- Adding drawings by stylus
-- Deleteing drawings by stylus
+- Adding or deleting drawings by stylus
 - Inputing Text by keyboard
 - Importing images
 
