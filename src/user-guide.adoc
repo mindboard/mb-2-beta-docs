@@ -282,11 +282,10 @@ node イラストの編集を行います.
 map editor mode に戻るには、地の部分を finger でダブルタップするか、画面左上のクローズボタンをタップします.
 ////
 
-You can use three type input method in Node Editor.
-//Node Editor  では以下のことが行えます.
+You can use three type input method.
 
 - Adding or deleting drawings by stylus
-- Inputing Text by keyboard
+- Inputing text by keyboard
 - Importing images
 
 ////
@@ -300,11 +299,12 @@ You can move or resize these items.
 //これらの作成したイラスト情報は選択して移動/リサイズができます.
 
 
-==== Adding drawings by stylus 
+==== Adding or deleteing drawings by stylus 
 
-Drawing your ideas by stylus under selecting the *pen tool*.
+- Drawing your ideas by stylus under selecting the *pen tool*.
+- Deleting drawings by stylus under selecting the *eraser tool*.
 
-*Illustration*
+*Illustration* :
 
 image::items/pen-and-eraser-tool.png[title="Pen and Eraser"]
 
@@ -316,6 +316,7 @@ You can move and resize drawings that is enclosed by finger
 入力したイラストは finger で囲むことで、移動/リサイズすることができます.
 ////
 
+////
 ==== Deleteing drawings by stylus 
 
 Deleting drawings by stylus under selecting the *eraser tool*.
@@ -323,6 +324,7 @@ Deleting drawings by stylus under selecting the *eraser tool*.
 *Illustration*
 
 image::items/pen-and-eraser-tool.png[title="Pen and Eraser"]
+////
 
 
 ==== Inputting text 
@@ -333,7 +335,7 @@ image::items/pen-and-eraser-tool.png[title="Pen and Eraser"]
 . Inputting text on the dialog
 . Tapping the close button 
 
-*Illustration*
+*Illustration* :
 
 image::items/edit-toolbar-of-node-edit.png[title="Toolbar of node edit mode"]
 
@@ -356,7 +358,7 @@ You can move and resize added text that is selected by finger.
 . Tapping the image:icons/add-image.png[title="Add Image"] button on the edit toolbar of the node editor mode 
 . Selecting an image on the file chooser
 
-*Illustration*
+*Illustration* :
 
 image::items/edit-toolbar-of-node-edit.png[title="Toolbar of node edit mode"]
 
@@ -377,7 +379,7 @@ You can move and resize imported image that is selected by finger.
 . Tapping a item ( enclosed drawing or text ) 
 . Tapping the clipboard button on the edit toolbar of node editor mode
 
-*Illustration*
+*Illustration* :
 
 image::items/edit-toolbar-of-node-edit.png[title="Toolbar of node edit mode"]
 
@@ -400,7 +402,7 @@ This issue will be fixed in the future.
 
 . Tapping image:icons/undo.png[title="Undo"] / image:icons/redo.png[title="Redo"] button on the edit toolbar of the node editor mode
 
-*Illustration*
+*Illustration* :
 
 image::items/edit-toolbar-of-node-edit.png[title="Toolbar of node edit mode"]
 
@@ -410,21 +412,21 @@ image::items/edit-toolbar-of-node-edit.png[title="Toolbar of node edit mode"]
 . 編集ツールバー上の image:icons/undo.png[title="Undo"] / image:icons/redo.png[title="Redo"] ボタンをタップ
 ////
 
-==== Back to Map mode
+==== Back to Map Edit Mode
 
-*Operation* :
+*Operation* : How to back to Map Edit Mode
 
 . Double tapping on background with finger Or tapping close button on left top corner 
 
 *Illustration* :
 
-image::screenshots/back-to-map-mode.png[title="Back to Map Mode"]
+image::screenshots/back-to-map-mode.png[title="Back to Map Edit Mode"]
 
 // map editor mode に戻るには、地の部分を finger でダブルタップするか、画面左上のクローズボタンをタップします.
 
 === Menu
 
-image::items/menu-on-actionbar.png[title="menu on the actionbar"]
+image::items/menu-on-actionbar.png[title="menu on the action bar"]
 
 ==== New Document
 
@@ -459,7 +461,7 @@ You can change another buffer using buffers menu.
 
 *Illustration* :
 
-image::misc/buffer-list.png[title="Buffer-List"]
+image::misc/buffer-list.png[title="Buffer List"]
 
 [NOTE]
 The active document has check mark image:icons/active-page.png[title="Active Page Check"].
@@ -502,7 +504,6 @@ Under losing network conectivity, this process does not work.
 この問題は将来のバージョンで修正される予定です.
 ////
 
-//image::misc/buffer-manager-menu.png[Buffer-Manager-Menu]
 
 === Move to Trash
 
