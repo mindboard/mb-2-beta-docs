@@ -207,7 +207,7 @@ image::items/a-node-handle-of-a-child-node.png[title="A Node Handle of a child n
 
 . Tapping a target node
 . Dragging *a branch change handle*
-. Dropping a another parent node handle
+. Dropping another parent node handle
 
 ////
 . ノードハンドルをタップ
