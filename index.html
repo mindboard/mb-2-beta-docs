@@ -538,16 +538,17 @@ table.CodeRay td.code>pre{padding:0}
 <ul class="sectlevel2">
 <li><a href="#_basic_policy">2.1. Basic Policy</a></li>
 <li><a href="#_mode">2.2. Mode</a></li>
-<li><a href="#_map_editor_mode">2.3. Map Editor Mode</a></li>
-<li><a href="#_node_editor_mode">2.4. Node Editor Mode</a></li>
+<li><a href="#_map_edit_mode">2.3. Map Edit Mode</a></li>
+<li><a href="#_node_edit_mode">2.4. Node Edit Mode</a></li>
 <li><a href="#_menu">2.5. Menu</a></li>
 </ul>
 </li>
 <li><a href="#_buffer_manager_2">3. Buffer Manager</a>
 <ul class="sectlevel2">
-<li><a href="#_move_to_trash">3.1. Move to trash</a></li>
+<li><a href="#_move_to_trash">3.1. Move to Trash</a></li>
 <li><a href="#_open_trash">3.2. Open Trash</a></li>
-<li><a href="#_export_import">3.3. Export / Import</a></li>
+<li><a href="#_export">3.3. Export</a></li>
+<li><a href="#_import">3.4. Import</a></li>
 </ul>
 </li>
 <li><a href="#_trash">4. Trash</a>
@@ -660,6 +661,11 @@ And also your feedback will be much appreciated.</p>
 <div class="sect1">
 <h2 id="_editor"><a class="anchor" href="#_editor"></a>2. Editor</h2>
 <div class="sectionbody">
+<div class="imageblock">
+<div class="content">
+<img src="images/screenshots/editor-activity-map-edit-mode.png" alt="Editor Activity">
+</div>
+</div>
 <div class="sect2">
 <h3 id="_basic_policy"><a class="anchor" href="#_basic_policy"></a>2.1. Basic Policy</h3>
 <div class="ulist">
@@ -681,7 +687,7 @@ One is <strong>MAP editor mode</strong>, the other is <strong>NODE editor mode</
 </div>
 <div class="paragraph">
 <p>Use <strong>MAP editor mode</strong> when building your thoughts as mind-mapping, and use <strong>NODE editor mode</strong> when output your ideas on a branch.
-In order to switch these modes by double tap gesture with <strong>finger</strong>.</p>
+In order to switch these modes by <strong>double tap gesture with finger</strong>.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -690,14 +696,20 @@ In order to switch these modes by double tap gesture with <strong>finger</strong
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-When switching from <strong>MAP editor mode</strong> to <strong>NODE editor mode</strong>, it is also enabled to doubletap gesture with <strong>stylus</strong>.
+In order to switch from <strong>MAP editor mode</strong> to <strong>NODE editor mode</strong>, you can also use doubletap gesture with <strong>stylus</strong>.
 </td>
 </tr>
 </table>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_map_editor_mode"><a class="anchor" href="#_map_editor_mode"></a>2.3. Map Editor Mode</h3>
+<h3 id="_map_edit_mode"><a class="anchor" href="#_map_edit_mode"></a>2.3. Map Edit Mode</h3>
+<div class="imageblock">
+<div class="content">
+<img src="images/screenshots/editor-activity-map-edit-mode.png" alt="editor activity map edit mode">
+</div>
+<div class="title">Figure 1. Editor Activity Map Edit Mode</div>
+</div>
 <div class="paragraph">
 <p>This mode is for builder your thoughts as mind-mapping.</p>
 </div>
@@ -735,13 +747,11 @@ When switching from <strong>MAP editor mode</strong> to <strong>NODE editor mode
 <div class="paragraph">
 <p><strong>Illustration</strong> :</p>
 </div>
-<div class="paragraph">
-<p>The Edit Toolbar of map editor mode</p>
-</div>
 <div class="imageblock">
 <div class="content">
-<img src="images/items/edit-toolbar-of-map-editor.png" alt="edit-toolbar of map-editor">
+<img src="images/items/edit-toolbar-of-map-editor.png" alt="edit toolbar of map editor">
 </div>
+<div class="title">Figure 2. Edit Toolbar of map edit mode</div>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -779,8 +789,9 @@ You can add multiple center nodes in a document.
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="images/items/a-handle-to-resize-a-center-node.png" alt="resizing-center-node">
+<img src="images/items/a-handle-to-resize-a-center-node.png" alt="a handle to resize a center node">
 </div>
+<div class="title">Figure 3. Resize Handle of center node</div>
 </div>
 </div>
 <div class="sect3">
@@ -801,21 +812,17 @@ You can add multiple center nodes in a document.
 <div class="paragraph">
 <p><strong>Illustration</strong> :</p>
 </div>
-<div class="paragraph">
-<p>Two handles to create a child node of a center node</p>
-</div>
 <div class="imageblock">
 <div class="content">
 <img src="images/items/handles-to-create-a-child-node-of-a-center-node.png" alt="handles to create a child node of a center node">
 </div>
-</div>
-<div class="paragraph">
-<p>A handle to create a child node of a child node</p>
+<div class="title">Figure 4. Two Handles to create a child node of a center node</div>
 </div>
 <div class="imageblock">
 <div class="content">
 <img src="images/items/a-handle-to-create-a-child-node-of-a-child-node.png" alt="a handle to create a child node of a child node">
 </div>
+<div class="title">Figure 5. A Handle to create a child node of a child node</div>
 </div>
 </div>
 <div class="sect3">
@@ -836,21 +843,17 @@ You can add multiple center nodes in a document.
 <div class="paragraph">
 <p><strong>Illustration</strong> :</p>
 </div>
-<div class="paragraph">
-<p>A node handle of a center node</p>
-</div>
 <div class="imageblock">
 <div class="content">
 <img src="images/items/a-node-handle-of-a-center-node.png" alt="a node handle of a center node">
 </div>
-</div>
-<div class="paragraph">
-<p>A node handle of a child node</p>
+<div class="title">Figure 6. A Node Handle of a center node</div>
 </div>
 <div class="imageblock">
 <div class="content">
 <img src="images/items/a-node-handle-of-a-child-node.png" alt="a node handle of a child node">
 </div>
+<div class="title">Figure 7. A Node Handle of a child node</div>
 </div>
 </div>
 <div class="sect3">
@@ -874,29 +877,11 @@ You can add multiple center nodes in a document.
 <div class="paragraph">
 <p><strong>Illustration</strong> :</p>
 </div>
-<div class="paragraph">
-<p>A branch change handle</p>
-</div>
 <div class="imageblock">
 <div class="content">
-<img src="images/items/a-branch-change-handle.png" alt="a-branch-change-handle">
+<img src="images/items/a-branch-change-handle.png" alt="a branch change handle">
 </div>
-</div>
-<div class="paragraph">
-<p>A node handle of a center node</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="images/items/a-node-handle-of-a-center-node.png" alt="a node handle of a center node">
-</div>
-</div>
-<div class="paragraph">
-<p>A node handle of a child node</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="images/items/a-node-handle-of-a-child-node.png" alt="a node handle of a child node">
-</div>
+<div class="title">Figure 8. A Branch Change Handle</div>
 </div>
 </div>
 <div class="sect3">
@@ -917,13 +902,11 @@ You can add multiple center nodes in a document.
 <div class="paragraph">
 <p><strong>Illustration</strong> :</p>
 </div>
-<div class="paragraph">
-<p>A trashcan on the editor</p>
-</div>
 <div class="imageblock">
 <div class="content">
-<img src="images/items/a-trashcan-on-the-editor.png" alt="delete-node">
+<img src="images/items/a-trashcan-on-the-editor.png" alt="a trashcan on the editor">
 </div>
+<div class="title">Figure 9. Trashcan</div>
 </div>
 </div>
 <div class="sect3">
@@ -941,18 +924,22 @@ You can add multiple center nodes in a document.
 <div class="paragraph">
 <p><strong>Illustration</strong> :</p>
 </div>
-<div class="paragraph">
-<p>The edit toolbar of map editor mode</p>
-</div>
 <div class="imageblock">
 <div class="content">
-<img src="images/items/edit-toolbar-of-map-editor.png" alt="edit-toolbar of map-editor">
+<img src="images/items/edit-toolbar-of-map-editor.png" alt="edit toolbar of map editor">
 </div>
+<div class="title">Figure 10. Edit Toolbar of map edit mode</div>
 </div>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_node_editor_mode"><a class="anchor" href="#_node_editor_mode"></a>2.4. Node Editor Mode</h3>
+<h3 id="_node_edit_mode"><a class="anchor" href="#_node_edit_mode"></a>2.4. Node Edit Mode</h3>
+<div class="imageblock">
+<div class="content">
+<img src="images/screenshots/editor-activity-node-edit-mode.png" alt="editor activity node edit mode">
+</div>
+<div class="title">Figure 11. Editor Activity Node Edit Mode</div>
+</div>
 <div class="paragraph">
 <p>This mode is for outputing your ideas on a branch.</p>
 </div>
@@ -962,7 +949,10 @@ You can add multiple center nodes in a document.
 <div class="ulist">
 <ul>
 <li>
-<p>Adding stroks by stylus</p>
+<p>Adding drawings by stylus</p>
+</li>
+<li>
+<p>Deleteing drawings by stylus</p>
 </li>
 <li>
 <p>Inputing Text by keyboard</p>
@@ -978,12 +968,47 @@ You can add multiple center nodes in a document.
 <div class="sect3">
 <h4 id="_adding_drawings_by_stylus"><a class="anchor" href="#_adding_drawings_by_stylus"></a>2.4.1. Adding drawings by stylus</h4>
 <div class="paragraph">
-<p>Drawing your ideas by stylus.
-You can move and resize drawings that is enclosed by finger</p>
+<p>Drawing your ideas by stylus under selecting the <strong>pen tool</strong>.</p>
+</div>
+<div class="paragraph">
+<p><strong>Illustration</strong></p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/items/pen-and-eraser-tool.png" alt="pen and eraser tool">
+</div>
+<div class="title">Figure 12. Pen and Eraser</div>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+You can move and resize drawings that is enclosed by finger
+</td>
+</tr>
+</table>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_inputting_text"><a class="anchor" href="#_inputting_text"></a>2.4.2. Inputting text</h4>
+<h4 id="_deleteing_drawings_by_stylus"><a class="anchor" href="#_deleteing_drawings_by_stylus"></a>2.4.2. Deleteing drawings by stylus</h4>
+<div class="paragraph">
+<p>Deleting drawings by stylus under selecting the <strong>eraser tool</strong>.</p>
+</div>
+<div class="paragraph">
+<p><strong>Illustration</strong></p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/items/pen-and-eraser-tool.png" alt="pen and eraser tool">
+</div>
+<div class="title">Figure 13. Pen and Eraser</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_inputting_text"><a class="anchor" href="#_inputting_text"></a>2.4.3. Inputting text</h4>
 <div class="paragraph">
 <p><strong>Operation</strong> :</p>
 </div>
@@ -1001,11 +1026,29 @@ You can move and resize drawings that is enclosed by finger</p>
 </ol>
 </div>
 <div class="paragraph">
-<p>You can move and resize text that is selected by finger.</p>
+<p><strong>Illustration</strong></p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/items/edit-toolbar-of-node-edit.png" alt="edit toolbar of node edit">
+</div>
+<div class="title">Figure 14. Toolbar of node edit mode</div>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+You can move and resize added text that is selected by finger.
+</td>
+</tr>
+</table>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_importing_image"><a class="anchor" href="#_importing_image"></a>2.4.3. Importing image</h4>
+<h4 id="_importing_image"><a class="anchor" href="#_importing_image"></a>2.4.4. Importing image</h4>
 <div class="paragraph">
 <p><strong>Operation</strong> :</p>
 </div>
@@ -1020,11 +1063,32 @@ You can move and resize drawings that is enclosed by finger</p>
 </ol>
 </div>
 <div class="paragraph">
-<p>You can move and resize image that is selected by finger.</p>
+<p><strong>Illustration</strong></p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/items/edit-toolbar-of-node-edit.png" alt="edit toolbar of node edit">
+</div>
+<div class="title">Figure 15. Toolbar of node edit mode</div>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+You can move and resize imported image that is selected by finger.
+</td>
+</tr>
+</table>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_copy_and_paste"><a class="anchor" href="#_copy_and_paste"></a>2.4.4. Copy and Paste</h4>
+<h4 id="_copy_and_paste"><a class="anchor" href="#_copy_and_paste"></a>2.4.5. Copy and Paste</h4>
+<div class="paragraph">
+<p><strong>Operation</strong> :</p>
+</div>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
@@ -1035,6 +1099,15 @@ You can move and resize drawings that is enclosed by finger</p>
 </li>
 </ol>
 </div>
+<div class="paragraph">
+<p><strong>Illustration</strong></p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/items/edit-toolbar-of-node-edit.png" alt="edit toolbar of node edit">
+</div>
+<div class="title">Figure 16. Toolbar of node edit mode</div>
+</div>
 <div class="admonitionblock warning">
 <table>
 <tr>
@@ -1042,7 +1115,7 @@ You can move and resize drawings that is enclosed by finger</p>
 <i class="fa icon-warning" title="Warning"></i>
 </td>
 <td class="content">
-Currently it&#8217;s not supported image copy and paste.
+Currently image copy and paste feature is not supported.
 This issue will be fixed in the future.
 </td>
 </tr>
@@ -1050,7 +1123,7 @@ This issue will be fixed in the future.
 </div>
 </div>
 <div class="sect3">
-<h4 id="_undo_redo_2"><a class="anchor" href="#_undo_redo_2"></a>2.4.5. Undo / Redo</h4>
+<h4 id="_undo_redo_2"><a class="anchor" href="#_undo_redo_2"></a>2.4.6. Undo / Redo</h4>
 <div class="paragraph">
 <p><strong>Operation</strong> :</p>
 </div>
@@ -1061,21 +1134,36 @@ This issue will be fixed in the future.
 </li>
 </ol>
 </div>
+<div class="paragraph">
+<p><strong>Illustration</strong></p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/items/edit-toolbar-of-node-edit.png" alt="edit toolbar of node edit">
+</div>
+<div class="title">Figure 17. Toolbar of node edit mode</div>
+</div>
 </div>
 <div class="sect3">
-<h4 id="_back_to_map_mode"><a class="anchor" href="#_back_to_map_mode"></a>2.4.6. Back to Map mode</h4>
+<h4 id="_back_to_map_mode"><a class="anchor" href="#_back_to_map_mode"></a>2.4.7. Back to Map mode</h4>
 <div class="paragraph">
 <p><strong>Operation</strong> :</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Double tapping on background Or tapping close button on left top corner</p>
+<p>Double tapping on background with finger Or tapping close button on left top corner</p>
 </li>
 </ol>
 </div>
 <div class="paragraph">
-<p>TODO image</p>
+<p><strong>Illustration</strong> :</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/screenshots/back-to-map-mode.png" alt="back to map mode">
+</div>
+<div class="title">Figure 18. Back to Map Mode</div>
 </div>
 </div>
 </div>
@@ -1085,7 +1173,7 @@ This issue will be fixed in the future.
 <div class="content">
 <img src="images/items/menu-on-actionbar.png" alt="menu on actionbar">
 </div>
-<div class="title">Figure 1. menu on the actionbar</div>
+<div class="title">Figure 19. menu on the actionbar</div>
 </div>
 <div class="sect3">
 <h4 id="_new_document"><a class="anchor" href="#_new_document"></a>2.5.1. New Document</h4>
@@ -1138,7 +1226,7 @@ You can change another buffer using buffers menu.</p>
 <div class="content">
 <img src="images/misc/buffer-list.png" alt="buffer list">
 </div>
-<div class="title">Figure 2. Buffer-List</div>
+<div class="title">Figure 20. Buffer-List</div>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -1156,10 +1244,7 @@ The active document has check mark <span class="image"><img src="images/icons/ac
 <div class="sect3">
 <h4 id="_buffer_manager"><a class="anchor" href="#_buffer_manager"></a>2.5.3. Buffer Manager</h4>
 <div class="paragraph">
-<p>Entering Buffer Manager from Editor.</p>
-</div>
-<div class="paragraph">
-<p><strong>Operation</strong> :</p>
+<p><strong>Operation</strong> : How to enter into Buffer Manager from Editor</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
@@ -1174,8 +1259,11 @@ The active document has check mark <span class="image"><img src="images/icons/ac
 <div class="paragraph">
 <p><strong>Illustration</strong> :</p>
 </div>
-<div class="paragraph">
-<p>TODO image</p>
+<div class="imageblock">
+<div class="content">
+<img src="images/screenshots/editor-menu.png" alt="editor menu">
+</div>
+<div class="title">Figure 21. editor menu</div>
 </div>
 </div>
 </div>
@@ -1186,33 +1274,43 @@ The active document has check mark <span class="image"><img src="images/icons/ac
 <div class="sectionbody">
 <div class="imageblock">
 <div class="content">
-<img src="images/misc/buffer-manager.png" alt="buffer manager">
+<img src="images/screenshots/buffer-manager-activity.png" alt="buffer manager activity">
 </div>
-<div class="title">Figure 3. Buffer-Manager</div>
+<div class="title">Figure 22. Buffer Manager Activity</div>
 </div>
 <div class="paragraph">
-<p>Buffer Manager Features :</p>
+<p><strong>Features</strong> :</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Move a document to the trash</p>
+<p>Move to Trash</p>
 </li>
 <li>
-<p>Open the trash</p>
+<p>Open Trash</p>
 </li>
 <li>
-<p>Exporting / Importing a doucment</p>
+<p>Export / Import</p>
 </li>
 </ul>
 </div>
-<div class="sect2">
-<h3 id="_move_to_trash"><a class="anchor" href="#_move_to_trash"></a>3.1. Move to trash</h3>
-<div class="paragraph">
-<p>Moving a document to the trash.</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Export / Import process needs Network connectivity and Google Account.
+Under losing network conectivity, this process does not work.
+</td>
+</tr>
+</table>
 </div>
+<div class="sect2">
+<h3 id="_move_to_trash"><a class="anchor" href="#_move_to_trash"></a>3.1. Move to Trash</h3>
 <div class="paragraph">
-<p><strong>Operation</strong> :</p>
+<p><strong>Operation</strong> : Moving a document to the trash</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
@@ -1228,7 +1326,7 @@ The active document has check mark <span class="image"><img src="images/icons/ac
 <div class="sect2">
 <h3 id="_open_trash"><a class="anchor" href="#_open_trash"></a>3.2. Open Trash</h3>
 <div class="paragraph">
-<p><strong>Operation</strong> :</p>
+<p><strong>Operation</strong> : Entering into the trash activity</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
@@ -1247,24 +1345,24 @@ The active document has check mark <span class="image"><img src="images/icons/ac
 <div class="content">
 <img src="images/misc/buffer-manager-menu-open-trash.png" alt="buffer manager menu open trash">
 </div>
-<div class="title">Figure 4. Open Trash</div>
+<div class="title">Figure 23. Open Trash</div>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_export_import"><a class="anchor" href="#_export_import"></a>3.3. Export / Import</h3>
+<h3 id="_export"><a class="anchor" href="#_export"></a>3.3. Export</h3>
 <div class="paragraph">
-<p>Exporting a document to Google Drive / Importing a document from Google Drive.</p>
-</div>
-<div class="paragraph">
-<p><strong>Operation</strong> :</p>
+<p><strong>Operation</strong> : Exporting a document to Google Drive</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
+<p>Tapping a document to select</p>
+</li>
+<li>
 <p>Tapping the <span class="image"><img src="images/icons/mb_menu.png" alt="mb menu" title="Menu"></span> button on Action Bar</p>
 </li>
 <li>
-<p>Tapping the <span class="image"><img src="images/icons/mb_cloud.png" alt="mb cloud" title="Cloud"></span> Export / <span class="image"><img src="images/icons/mb_cloud.png" alt="mb cloud" title="Cloud"></span> Import menu item from the popup menu.</p>
+<p>Tapping the <span class="image"><img src="images/icons/mb_cloud.png" alt="mb cloud" title="Cloud"></span> Export menu item from the popup menu.</p>
 </li>
 </ol>
 </div>
@@ -1275,7 +1373,7 @@ The active document has check mark <span class="image"><img src="images/icons/ac
 <div class="content">
 <img src="images/misc/buffer-manager-menu-export-import.png" alt="buffer manager menu export import">
 </div>
-<div class="title">Figure 5. Export / Import</div>
+<div class="title">Figure 24. Export / Import</div>
 </div>
 <div class="admonitionblock warning">
 <table>
@@ -1285,14 +1383,52 @@ The active document has check mark <span class="image"><img src="images/icons/ac
 </td>
 <td class="content">
 Do not rotate device under importing / exporting a document.
-If you rotate, this application will be crushed.
+If rotate, this application will be crushed.
 In this case, you should do again.
+This issue will be fixed in the future.
 </td>
 </tr>
 </table>
 </div>
+</div>
+<div class="sect2">
+<h3 id="_import"><a class="anchor" href="#_import"></a>3.4. Import</h3>
 <div class="paragraph">
-<p>This issue will be fixed in the future.</p>
+<p><strong>Operation</strong> : Importing a document from Google Drive</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Tapping the <span class="image"><img src="images/icons/mb_menu.png" alt="mb menu" title="Menu"></span> button on Action Bar</p>
+</li>
+<li>
+<p>Tapping the <span class="image"><img src="images/icons/mb_cloud.png" alt="mb cloud" title="Cloud"></span> Import menu item from the popup menu.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p><strong>Illustration</strong> :</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/misc/buffer-manager-menu-export-import.png" alt="buffer manager menu export import">
+</div>
+<div class="title">Figure 25. Export / Import</div>
+</div>
+<div class="admonitionblock warning">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-warning" title="Warning"></i>
+</td>
+<td class="content">
+Do not rotate device under importing / exporting a document.
+If rotate, this application will be crushed.
+In this case, you should do again.
+This issue will be fixed in the future.
+</td>
+</tr>
+</table>
 </div>
 </div>
 </div>
@@ -1300,6 +1436,12 @@ In this case, you should do again.
 <div class="sect1">
 <h2 id="_trash"><a class="anchor" href="#_trash"></a>4. Trash</h2>
 <div class="sectionbody">
+<div class="imageblock">
+<div class="content">
+<img src="images/screenshots/trash-activity.png" alt="trash activity">
+</div>
+<div class="title">Figure 26. trash activity</div>
+</div>
 <div class="paragraph">
 <p>You can manage trashed documents in this activity.</p>
 </div>
@@ -1309,19 +1451,22 @@ In this case, you should do again.
 <div class="ulist">
 <ul>
 <li>
-<p>Putting back a document</p>
+<p>Put Back</p>
 </li>
 <li>
-<p>Emptying Trash, deleting all documents in the trash forever</p>
+<p>Empty Trash</p>
 </li>
 </ul>
 </div>
 <div class="sect2">
 <h3 id="_putting_back"><a class="anchor" href="#_putting_back"></a>4.1. Putting Back</h3>
+<div class="paragraph">
+<p><strong>Operation</strong> :</p>
+</div>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Tapping a document from the list to select it</p>
+<p>Tapping a document from the list to select</p>
 </li>
 <li>
 <p>Tapping the <span class="image"><img src="images/icons/put-back.png" alt="put back" title="Put Back"></span> button on the action bar</p>
@@ -1331,6 +1476,9 @@ In this case, you should do again.
 </div>
 <div class="sect2">
 <h3 id="_emptying_trash"><a class="anchor" href="#_emptying_trash"></a>4.2. Emptying Trash</h3>
+<div class="paragraph">
+<p><strong>Operation</strong> :</p>
+</div>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
@@ -1342,7 +1490,13 @@ In this case, you should do again.
 </ol>
 </div>
 <div class="paragraph">
-<p>TODO confirm dialog screenshot</p>
+<p><strong>Illustration</strong> :</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/screenshots/dialog-empty-trash.png" alt="dialog empty trash">
+</div>
+<div class="title">Figure 27. empty trash warning dialog</div>
 </div>
 <div class="admonitionblock warning">
 <table>
@@ -1364,9 +1518,9 @@ This action cause deleteing all documents in the trash forever.
 <div class="sectionbody">
 <div class="imageblock">
 <div class="content">
-<img src="images/items/settings-main.png" alt="settings main">
+<img src="images/misc/settings-main.png" alt="settings main">
 </div>
-<div class="title">Figure 6. Settings</div>
+<div class="title">Figure 28. Settings</div>
 </div>
 <div class="paragraph">
 <p><strong>Features</strong> :</p>
@@ -1405,9 +1559,9 @@ This action cause deleteing all documents in the trash forever.
 <h3 id="_calibration_settings"><a class="anchor" href="#_calibration_settings"></a>5.1. Calibration Settings</h3>
 <div class="imageblock">
 <div class="content">
-<img src="images/items/settings-calibration.png" alt="settings calibration">
+<img src="images/misc/settings-calibration.png" alt="settings calibration">
 </div>
-<div class="title">Figure 7. Calibration Settings</div>
+<div class="title">Figure 29. Calibration Settings</div>
 </div>
 <div class="paragraph">
 <p>It is possible to keep 3 calibration presets of stylus.</p>
