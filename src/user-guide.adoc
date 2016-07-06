@@ -8,6 +8,7 @@ image::misc/mind-mapping-example.png[MindBoard 2 (Beta)]
 MindBoard 2 (Beta) is a freehand mind-mapping application with stylus for Android tablets.
 In addition, this edition has text input and image import feature.
 
+
 === Basic Concept
 
 Less is more.
@@ -15,10 +16,6 @@ Less is more.
 In order to concentrate your thinking activity, this application has less user interface. 
 And you can quickly build your map by using a few basic operations.
 
-////
-アイデアを描き出すことに集中できるように、可能な限り装飾をなくしています.
-また少ない基本操作だけですばやくマップを描きだしていけるようにデザインしています.
-////
 
 === Requirement
 
@@ -48,12 +45,12 @@ And also your feedback will be much appreciated.
 
 image::screenshots/editor-activity-map-edit-mode.png[Editor Activity]
 
+
 === Basic Policy
 
 * *By Stylus* : Drawing your ideas freely
 * *By Finger* : Editing and operating your ideas.
 
-//アイデアを描き出すときは Stylus を使用し、描きだしたアイデアを操作するときは finger を使います.
 
 === Mode
 
@@ -66,13 +63,6 @@ In order to switch these modes by *double tap gesture with finger*.
 [NOTE]
 In order to switch from *Map Edit Mode* to *Node Edit Mode*, you can also use doubletap gesture with *stylus*.
 
-////
-MindBoard は map-editor mode と node-editor mode の２つのモードを使います.
-マップ全体を描きだしていくときに使用するのが map-editor モードで、
-それぞれのブランチ上にアイデアを描きこんでいくときに使用するのが node-editor モードです.
-これらのモード切り替えは finger による double-tap ジェスチャーを使用します.
-( map-editor から node-editor への切り替えは stylus による double-tap ジェスチャーも使用可能です. )
-////
 
 === Map Edit Mode
 
@@ -81,31 +71,12 @@ image::screenshots/editor-activity-map-edit-mode.png[title="Editor Activity Map 
 This mode is for builder your thoughts as mind-mapping.
 
 
-
-
-////
-起動時はデフォルトの新規ドキュメントが用意されています.
-別のドキュメントを作成するには、以下のようにします.
-
-. ActionBar 上の image:icons/mb_new.png[title="New Document"] ボタンをタップ
-
-[NOTE]
-以前に編集していたマップは image:icons/mb_buffers.png[title="Buffers"] ボタンをタップして一覧から選択することで再度呼び出して編集/閲覧できます.
-////
-
 ==== Zoom and Scroll
 
 *Operation* :
 
 - *Zoom* : Pinch in / out with two fingers
 - *Scroll* : Draging background with one finger
-
-////
-マップ画面では以下の操作でズームとスクロールが可能です.
-
-- ズーム : 2本指でのピンチイン/ピンチアウト
-- スクロール : 1本指で地の部分をドラッグ
-////
 
 
 ==== Adding Center Node
@@ -117,20 +88,11 @@ This mode is for builder your thoughts as mind-mapping.
 
 *Illustration* :
 
-//The Edit Toolbar of map edit mode
-
 image::items/edit-toolbar-of-map-editor.png[title="Edit Toolbar of map edit mode"]
 
 [NOTE]
 You can add multiple center nodes in a document.
 
-////
-複数のセンターノードをサポートしています.
-
-. 編集ツールバーの image:icons/add-center-node.png[title="Add Center Node"] ボタンをタップ
-
-画面の中央に新しいセンターノードが追加されます.
-////
 
 ==== Resizing Center Node
 
@@ -141,41 +103,21 @@ You can add multiple center nodes in a document.
 
 *Illustration* :
 
-//A resize handle
-
 image::items/a-handle-to-resize-a-center-node.png[title="A Resize Handle of center node"]
 
 
 ==== Creating a Child Node
-
-//子ノードを作成するには子ノード生成ハンドルをドラッグします.
 
 *Operation* :
 
 . Tapping a target node to select
 . Dragging *a handle to create a child node*
 
-//. 子ノードを生成するノードをタップ
-//. 子ノード生成ハンドルをドラッグ
-
 *Illustration* :
-
-//Two handles to create a child node of a center node
 
 image::items/handles-to-create-a-child-node-of-a-center-node.png[title="Two Handles to create a child node of a center node"]
 
-//A handle to create a child node of a child node
-
 image::items/a-handle-to-create-a-child-node-of-a-child-node.png[title="A Handle to create a child node of a child node"]
-
-////
-A center node that has two resize handles
-image::items/createing-child-node-handle-of-center-node.png[handles to create child node of Center Node]
-
-
-Creating-child-node-handle of Child Node
-image::items/createing-child-node-handle-of-child-node.png[creating-child-node of Child Node]
-////
 
 
 ==== Outputing Ideas on a center node or a branch
@@ -187,21 +129,14 @@ image::items/createing-child-node-handle-of-child-node.png[creating-child-node o
 As a result, entering *the Node Edit Mode*. 
 You can draw your ideas there.
 
-
 *Illustration* :
 
-//A node handle of a center node
-
 image::items/a-node-handle-of-a-center-node.png[title="A Node Handle of a center node"]
-
-//A node handle of a child node
 
 image::items/a-node-handle-of-a-child-node.png[title="A Node Handle of a child node"]
 
 
 ==== Reorganizing Map ( Changing Node Structure )
-
-//ブランチハンドルをドラッグすることで親ノードを変更できます.
 
 *Operation* :
 
@@ -209,60 +144,28 @@ image::items/a-node-handle-of-a-child-node.png[title="A Node Handle of a child n
 . Dragging *a branch change handle*
 . Dropping another parent node handle
 
-////
-. ノードハンドルをタップ
-. ノードと親ノードを結ぶブランチの中間に表示されるブランチハンドルをドラッグ
-. 変更先の親ノードにドロップ
-////
-
 *Illustration* :
 
-//A branch change handle
-
 image::items/a-branch-change-handle.png[title="A Branch Change Handle"]
-
-////
-A node handle of a center node
-
-image::items/a-node-handle-of-a-center-node.png[title="a node handle of a center node"]
-
-A node handle of a child node
-
-image::items/a-node-handle-of-a-child-node.png[title="a node handle of a child node"]
-////
-
-
 
 
 ==== Deleting a Node
 
 *Operation* :
 
-//node を削除するゴミ箱を使います.
-
 . Dragging a target node
 . Dropping it into the image:icons/mb_trashcan.png[title="Trash"] icon
 
-////
-. 削除する node をドラッグ
-. 画面右下の image:icons/mb_trashcan.png[title="Trash"] にドロップ
-////
-
 *Illustration* :
 
-//A trashcan on the editor
-
 image::items/a-trashcan-on-the-editor.png[title="Trashcan"]
+
 
 ==== Undo / Redo
 
 *Operation* :
 
 . Tapping the image:icons/undo.png[title="Undo"] / image:icons/redo.png[title="Redo"] button on the edit toolbar of the Map Edit Mode
-
-//ほとんどの操作は Undo / Redo に対応しています.
-//. 編集ツールバー上の image:icons/undo.png[title="Undo"] / image:icons/redo.png[title="Redo"] ボタンをタップ
-
 
 *Illustration* :
 
@@ -275,26 +178,13 @@ image::screenshots/editor-activity-node-edit-mode.png[title="Editor Activity Nod
 
 This mode is for outputing your ideas on a branch.
 
-////
-node イラストの編集を行います.
-map edit mode に戻るには、地の部分を finger でダブルタップするか、画面左上のクローズボタンをタップします.
-////
-
-You can use three type input method.
+You can use three type input methods.
 
 - Adding or deleting drawings by stylus
 - Inputing text by keyboard
 - Importing images
 
-////
-* スタイラスによる入力
-* テキストの入力
-* 画像のインポート
-////
-
 You can move or resize these items.
-
-//これらの作成したイラスト情報は選択して移動/リサイズができます.
 
 
 ==== Adding or deleteing drawings by stylus 
@@ -308,21 +198,6 @@ image::items/pen-and-eraser-tool.png[title="Pen and Eraser"]
 
 [NOTE]
 You can move and resize drawings that is enclosed by finger
-
-////
-スタイラスを使用してイラストを入力します.
-入力したイラストは finger で囲むことで、移動/リサイズすることができます.
-////
-
-////
-==== Deleteing drawings by stylus 
-
-Deleting drawings by stylus under selecting the *eraser tool*.
-
-*Illustration*
-
-image::items/pen-and-eraser-tool.png[title="Pen and Eraser"]
-////
 
 
 ==== Inputting text 
@@ -340,14 +215,6 @@ image::items/edit-toolbar-of-node-edit.png[title="Toolbar of node edit mode"]
 [NOTE]
 You can move and resize added text that is selected by finger.
 
-////
-. 編集ツールバー上の image:icons/add-text.png[title="Add Text"] ボタンをタップ
-. テキスト入力ダイアログでテキストを入力
-. 右下のバツボタンをタップ
-
-入力したテキストは、finger でタップして選択することで、移動/リサイズできます.
-////
-
 
 ==== Importing image
 
@@ -363,12 +230,6 @@ image::items/edit-toolbar-of-node-edit.png[title="Toolbar of node edit mode"]
 [NOTE]
 You can move and resize imported image that is selected by finger.
 
-////
-. 編集ツールバー上の image:icons/add-image.png[title="Add Image"] ボタンをタップ
-. 画像選択ダイアログで画像を選択
-
-インポートしたテキストは、finger でタップして選択することで、移動/リサイズできます.
-////
 
 ==== Copy and Paste
 
@@ -385,14 +246,6 @@ image::items/edit-toolbar-of-node-edit.png[title="Toolbar of node edit mode"]
 Currently image copy and paste feature is not supported.
 This issue will be fixed in the future.
 
-////
-選択したイラスト / テキストはクリップボードに保管されます.
-編集ツールバー上のクリップボードボタンをタップしてペーストできます.
-
-[WARNING]
-画像のコピー＆ペーストは未対応です.
-将来のバージョンで対応予定です.
-////
 
 ==== Undo / Redo
 
@@ -404,11 +257,6 @@ This issue will be fixed in the future.
 
 image::items/edit-toolbar-of-node-edit.png[title="Toolbar of node edit mode"]
 
-////
-ほとんどの操作は Undo / Redo に対応しています.
-
-. 編集ツールバー上の image:icons/undo.png[title="Undo"] / image:icons/redo.png[title="Redo"] ボタンをタップ
-////
 
 ==== Back to Map Edit Mode
 
@@ -420,20 +268,17 @@ image::items/edit-toolbar-of-node-edit.png[title="Toolbar of node edit mode"]
 
 image::screenshots/back-to-map-mode.png[title="Back to Map Edit Mode"]
 
-// map edit mode に戻るには、地の部分を finger でダブルタップするか、画面左上のクローズボタンをタップします.
 
 === Menu
 
 image::items/menu-on-actionbar.png[title="menu on the action bar"]
+
 
 ==== New Document
 
 *Operation* :
 
 * Tapping the image:icons/mb_new.png[title="New Document"] button on the action bar.
-
-
-
 
 [NOTE]
 By tapping the image:icons/mb_buffers.png[title="Buffers"] button on the action bar, you can open a previous document.
@@ -443,14 +288,6 @@ By tapping the image:icons/mb_buffers.png[title="Buffers"] button on the action 
 
 The document you are creating resides in an object called a buffer.
 You can change another buffer using buffers menu.
-
-////
-作成したドキュメントはすべてバッファ上に保管されています.
-以前に作成したドキュメントにアクセスするには、以下のようにします.
-
-. ActionBar 上の image:icons/mb_buffers.png[title="Buffers"] ボタンをタップ
-. 表示された一覧から該当のドキュメントを選択
-////
 
 *Operation* :
 
@@ -463,12 +300,9 @@ image::misc/buffer-list.png[title="Buffer List"]
 
 [NOTE]
 The active document has check mark like image:icons/active-page.png[title="Active Page Check"].
-//現在アクティブなドキュメントには チェックマーク image:icons/active-page.png[title="Active Page Check"] が入ります.
 
 
 ==== Buffer Manager
-
-//image::screenshots/buffer-manager-activity.png[title="buffer manager activity"]
 
 *Operation* : How to enter into Buffer Manager from Editor
 
@@ -495,14 +329,6 @@ Export / Import process needs Network connectivity and Google Account.
 Under losing network conectivity, this process does not work.
 
 
-////
-ドキュメントのインポート・エクスポート中に Android デバイス画面を回転しないでください.
-回転した場合、アプリケーションが強制終了することがあります.
-その場合は、処理をもう一度やり直してください.
-この問題は将来のバージョンで修正される予定です.
-////
-
-
 === Move to Trash
 
 *Operation* : Moving a document to the trash
@@ -510,15 +336,8 @@ Under losing network conectivity, this process does not work.
 . Tapping a document from the list to select
 . Tapping the image:icons/move-to-trash.png[title="Move to Trash"] button on the action bar
 
-////
-. 一覧からドキュメントを選択
-. ActionBar 上の image:icons/move-to-trash.png[title="Move to Trash"] ボタンをタップ
-////
-
 
 === Open Trash
-
-//ゴミ箱内のドキュメント一覧を表示します.
 
 *Operation* : Entering into the trash activity
 
@@ -542,7 +361,6 @@ image::misc/buffer-manager-menu-open-trash.png[title="Open Trash"]
 
 image::misc/buffer-manager-menu-export-import.png[title="Export / Import"]
 
-
 [WARNING]
 Do not rotate device under importing / exporting a document.
 If rotate, this application will be crushed.
@@ -561,7 +379,6 @@ This issue will be fixed in the future.
 
 image::misc/buffer-manager-menu-export-import.png[title="Export / Import"]
 
-
 [WARNING]
 Do not rotate device under importing / exporting a document.
 If rotate, this application will be crushed.
@@ -569,34 +386,9 @@ In this case, you should do again.
 This issue will be fixed in the future.
 
 
-
-
-
-
-////
-=== Exporting Document to Google Drive
-
-*Operation* :
-
-. Tapping a document 
-. Tapping the image:icons/mb_menu.png[title="Menu"] button on the action bar
-. Tapping the image:icons/mb_cloud.png[title="Export"] export button on the popup menu
-
-=== Importing Document from Google Drive
-
-*Operation* :
-
-. Tapping the image:icons/mb_menu.png[title="Menu"] button on the action bar
-. Tapping the image:icons/mb_cloud.png[title="Export"] import button on the popup menu
-////
-
-
 == Trash
 
 image::screenshots/trash-activity.png[title="trash activity"]
-
-//不要なドキュメントを管理します.
-//Trash Activity Features
 
 You can manage trashed documents in this activity.
 
@@ -613,11 +405,6 @@ You can manage trashed documents in this activity.
 . Tapping a document from the list to select
 . Tapping the image:icons/put-back.png[title="Put Back"] button on the action bar
 
-////
-ゴミ箱内のドキュメントをバッファに戻します.
-. 一覧から元に戻すドキュメントを選択
-. ActionBar 上の image:icons/put-back.png[title="Put Back"] ボタンをタップ
-////
 
 === Emptying Trash
 
@@ -634,18 +421,9 @@ image::screenshots/dialog-empty-trash.png[title="empty trash warning dialog"]
 This action cause deleteing all documents in the trash forever.
 
 
-////
-. ActionBar 上の image:icons/empty-trash.png[title="Empty Trash"] ボタンをタップ
-. 確認ダイアログの表示
-. Yes を選択して完全削除を実行
-////
-
 == Settings
 
 image::misc/settings-main.png[title="Settings"]
-
-//You can   trashed documents in this activity.
-//This activity features :
 
 *Features* :
 
