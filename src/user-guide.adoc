@@ -35,7 +35,7 @@ Get the https://play.google.com/store/apps/details?id=com.mindboardapps.app.mb.s
 
 === Getting help
 
-If you have any questions, please http://www.mindboardapps.com/contact.html[contact us].
+If you have any questions, please http://www.mindboardapps.com/contact.html[contact].
 And also your feedback will be much appreciated.
 
 
@@ -66,7 +66,7 @@ In order to switch from *Map Edit Mode* to *Node Edit Mode*, you can also use do
 
 === Map Edit Mode
 
-image::screenshots/editor-activity-map-edit-mode.png[title="Editor Activity Map Edit Mode"]
+image::screenshots/editor-activity-map-edit-mode.png[title="Editor Activity (Map Edit Mode)"]
 
 This mode is for building your thoughts as mind-mapping.
 
@@ -79,22 +79,23 @@ This mode is for building your thoughts as mind-mapping.
 - *Scroll* : Draging background with one finger
 
 
-==== Adding Center Node
+==== Adding a Center Node
 
 *Operation* :
 
-. Tapping the image:icons/add-center-node.png[title="Add Center Node"] button on the edit-toolbar.
-. Center Node is added on the center of the screen.
+. Tapping the image:icons/add-center-node.png[title="Add Center Node"] button on the edit toolbar.
+
+A center node is added on the center of the screen.
 
 *Illustration* :
 
-image::items/edit-toolbar-of-map-editor.png[title="Edit Toolbar of map edit mode"]
+image::items/edit-toolbar-of-map-editor.png[title="Edit Toolbar (Map Edit Mode)"]
 
 [NOTE]
 You can add multiple center nodes in a document.
 
 
-==== Resizing Center Node
+==== Resizing a Center Node
 
 *Operation* :
 
@@ -103,10 +104,10 @@ You can add multiple center nodes in a document.
 
 *Illustration* :
 
-image::items/a-handle-to-resize-a-center-node.png[title="A Resize Handle of center node"]
+image::items/a-handle-to-resize-a-center-node.png[title="A Resize Handle (A Center Node)"]
 
 
-==== Creating a Child Node
+==== Creating a Child Node ( a Branch )
 
 *Operation* :
 
@@ -115,25 +116,24 @@ image::items/a-handle-to-resize-a-center-node.png[title="A Resize Handle of cent
 
 *Illustration* :
 
-image::items/handles-to-create-a-child-node-of-a-center-node.png[title="Two Handles to create a child node of a center node"]
+image::items/handles-to-create-a-child-node-of-a-center-node.png[title="Two Handles to create a child node (A Center Node)"]
 
-image::items/a-handle-to-create-a-child-node-of-a-child-node.png[title="A Handle to create a child node of a child node"]
+image::items/a-handle-to-create-a-child-node-of-a-child-node.png[title="A Handle to create a child node (A Child Node)"]
 
 
-==== Outputing Ideas on a center node or a branch
+==== Entering into Node Edit Mode
 
-*Operation* : How to enter the Node Edit Mode
+Enter into Node Edit Mode to output your ideas on a center node or a branch.
 
-. Double tapping a target node handle
+*Operation* : 
 
-As a result, entering *the Node Edit Mode*. 
-You can draw your ideas there.
+. Double tapping a target *node handle*
 
 *Illustration* :
 
-image::items/a-node-handle-of-a-center-node.png[title="A Node Handle of a center node"]
+image::items/a-node-handle-of-a-center-node.png[title="A Node Handle (A Center Node)"]
 
-image::items/a-node-handle-of-a-child-node.png[title="A Node Handle of a child node"]
+image::items/a-node-handle-of-a-child-node.png[title="A Node Handle (A Child Node)"]
 
 
 ==== Reorganizing Map ( Changing Node Structure )
@@ -149,12 +149,12 @@ image::items/a-node-handle-of-a-child-node.png[title="A Node Handle of a child n
 image::items/a-branch-change-handle.png[title="A Branch Change Handle"]
 
 
-==== Deleting a Node
+==== Deleting a Node ( a Branch )
 
 *Operation* :
 
 . Dragging a target node
-. Dropping it into the image:icons/mb_trashcan.png[title="Trash"] icon
+. Dropping it into the image:icons/mb_trashcan.png[title="Trashcan"] icon
 
 *Illustration* :
 
@@ -169,25 +169,28 @@ image::items/a-trashcan-on-the-editor.png[title="Trashcan"]
 
 *Illustration* :
 
-image::items/edit-toolbar-of-map-editor.png[title="Edit Toolbar of map edit mode"]
+image::items/edit-toolbar-of-map-editor.png[title="Edit Toolbar (Map Edit Mode)"]
 
 
 === Node Edit Mode
 
-image::screenshots/editor-activity-node-edit-mode.png[title="Editor Activity Node Edit Mode"]
+image::screenshots/editor-activity-node-edit-mode.png[title="Editor Activity (Node Edit Mode)"]
 
 This mode is for outputing your ideas on a branch.
 
-You can use three type input methods.
+There are 3 ways to output your ideas.
 
 - Adding or deleting drawings by stylus
 - Inputing text by keyboard
 - Importing images
 
-You can move or resize these items.
+You can move ,resize, delete these items.
+
+[NOTE]
+Currently PNG image format is supported.
 
 
-==== Adding or deleteing drawings by stylus 
+==== Add or delete drawings by stylus 
 
 - Drawing your ideas by stylus under selecting the *pen tool*.
 - Deleting drawings by stylus under selecting the *eraser tool*.
@@ -200,47 +203,47 @@ image::items/pen-and-eraser-tool.png[title="Pen and Eraser"]
 You can move and resize drawings that is enclosed by finger
 
 
-==== Inputting text 
+==== Input text 
 
 *Operation* :
 
-. Tapping the image:icons/add-text.png[title="Add Text"] button on the edit toolbar of the Node Edit Mode 
+. Tapping the image:icons/add-text.png[title="Add Text"] button on the edit toolbar
 . Inputting text on the dialog
 . Tapping the close button 
 
 *Illustration* :
 
-image::items/edit-toolbar-of-node-edit.png[title="Toolbar of node edit mode"]
+image::items/edit-toolbar-of-node-edit.png[title="Edit Toolbar (Node Edit Mode)"]
 
 [NOTE]
 You can move and resize added text that is selected by finger.
 
 
-==== Importing image
+==== Import Image
 
 *Operation* :
 
-. Tapping the image:icons/add-image.png[title="Add Image"] button on the edit toolbar of the Node Edit Mode 
-. Selecting an image on the file chooser
+. Tapping the image:icons/add-image.png[title="Import Image"] button on the edit toolbar
+. Choosing an image on the file chooser dialog
 
 *Illustration* :
 
-image::items/edit-toolbar-of-node-edit.png[title="Toolbar of node edit mode"]
+image::items/edit-toolbar-of-node-edit.png[title="Edit Toolbar (Node Edit Mode)"]
 
 [NOTE]
-You can move and resize imported image that is selected by finger.
+You can move and resize an imported image that is selected by finger.
 
 
 ==== Copy and Paste
 
 *Operation* :
 
-. Tapping a item ( enclosed drawing or text ) 
-. Tapping the clipboard button on the edit toolbar of Node Edit Mode
+. Tapping a item ( enclosing drawings or text ) to select
+. Tapping the *clipboard* button on the edit toolbar
 
 *Illustration* :
 
-image::items/edit-toolbar-of-node-edit.png[title="Toolbar of node edit mode"]
+image::items/edit-toolbar-of-node-edit.png[title="Edit Toolbar (Node Edit Mode)"]
 
 [WARNING]
 Currently image copy and paste feature is not supported.
@@ -251,34 +254,34 @@ This issue will be fixed in the future.
 
 *Operation* :
 
-. Tapping the image:icons/undo.png[title="Undo"] / image:icons/redo.png[title="Redo"] button on the edit toolbar of the Node Edit Mode
+. Tapping the image:icons/undo.png[title="Undo"] / image:icons/redo.png[title="Redo"] button on the edit toolbar
 
 *Illustration* :
 
-image::items/edit-toolbar-of-node-edit.png[title="Toolbar of node edit mode"]
+image::items/edit-toolbar-of-node-edit.png[title="Edit Toolbar (Node Edit Mode)"]
 
 
 ==== Back to Map Edit Mode
 
-*Operation* : How to back to Map Edit Mode
+*Operation* :
 
-. Double tapping on background with finger Or tapping close button on left top corner 
+. Double tapping on background with finger Or tapping the close button on top-left-corner 
 
 *Illustration* :
 
-image::screenshots/back-to-map-mode.png[title="Back to Map Edit Mode"]
+image::screenshots/back-to-map-mode.png[title="Close Button"]
 
 
 === Menu
 
-image::items/menu-on-actionbar.png[title="menu on the action bar"]
+image::items/menu-on-actionbar.png[title="Menu (Action Bar)"]
 
 
 ==== New Document
 
 *Operation* :
 
-* Tapping the image:icons/mb_new.png[title="New Document"] button on the action bar.
+. Tapping the image:icons/mb_new.png[title="New Document"] button on the action bar.
 
 [NOTE]
 By tapping the image:icons/mb_buffers.png[title="Buffers"] button on the action bar, you can open a previous document.
@@ -291,27 +294,29 @@ You can change another buffer using buffers menu.
 
 *Operation* :
 
-. Tapping the image:icons/mb_buffers.png[title="Buffers"] button on Action Bar
-. Tapping a document to change from buffer list menu.
+. Tapping the image:icons/mb_buffers.png[title="Buffers"] button on the action bar
+. Tapping a document to change from buffer popup list menu.
 
 *Illustration* :
 
 image::screenshots/buffer-list.png[title="Buffer List"]
 
 [NOTE]
-The active document has check mark like image:icons/active-page.png[title="Active Page Check"].
+The active document has check mark like image:icons/active-page.png[title="Active Page Check Mark"].
 
 
 ==== Buffer Manager
 
-*Operation* : How to enter into Buffer Manager from Editor
+Enter into Buffer Manager Activity.
 
-. Tapping the image:icons/mb_menu.png[title="Menu"] button on Action Bar
+*Operation* :
+
+. Tapping the image:icons/mb_menu.png[title="Menu"] button on the action bar
 . Tapping the image:icons/mb_buffers.png[title="Buffer Manager"] Buffer Manager menu item from the popup menu.
 
 *Illustration* :
 
-image::screenshots/editor-menu.png[title="editor menu"]
+image::screenshots/editor-menu.png[title="Menu"]
 
 
 == Buffer Manager
@@ -325,13 +330,15 @@ image::screenshots/buffer-manager-activity.png[title="Buffer Manager Activity"]
 * Export / Import
 
 [NOTE]
-Export / Import process needs Network connectivity and Google Account.
-Under losing network conectivity, this process does not work.
+Export / Import process needs the internet connectivity and Google Account.
+Under losing the internet conectivity, this process does not work.
 
 
 === Move to Trash
 
-*Operation* : Moving a document to the trash
+Move a document to the trash.
+
+*Operation* : 
 
 . Tapping a document from the list to select
 . Tapping the image:icons/move-to-trash.png[title="Move to Trash"] button on the action bar
@@ -339,7 +346,9 @@ Under losing network conectivity, this process does not work.
 
 === Open Trash
 
-*Operation* : Entering into the trash activity
+Enter into the trash activity.
+
+*Operation* :
 
 . Tapping the image:icons/mb_menu.png[title="Menu"] button on the action bar
 . Tapping the image:icons/mb_trashcan.png[title="Trash"] menu item on the popup menu
@@ -351,10 +360,12 @@ image::screenshots/buffer-manager-menu-open-trash.png[title="Open Trash"]
 
 === Export
 
-*Operation* : Exporting a document to Google Drive
+Export a document to Google Drive.
 
-. Tapping a document to select
-. Tapping the image:icons/mb_menu.png[title="Menu"] button on Action Bar
+*Operation* :
+
+. Tapping a document from the list to select
+. Tapping the image:icons/mb_menu.png[title="Menu"] button on the action bar
 . Tapping the image:icons/mb_cloud.png[title="Cloud"] Export menu item from the popup menu.
 
 *Illustration* :
@@ -362,7 +373,7 @@ image::screenshots/buffer-manager-menu-open-trash.png[title="Open Trash"]
 image::screenshots/buffer-manager-menu-export-import.png[title="Export / Import"]
 
 [WARNING]
-Do not rotate device under importing / exporting a document.
+Do not rotate the device under exporting / importing a document.
 If rotate, this application will be crushed.
 In this case, you should do again.
 This issue will be fixed in the future.
@@ -370,9 +381,11 @@ This issue will be fixed in the future.
 
 === Import
 
-*Operation* : Importing a document from Google Drive
+Import a document from Google Drive.
 
-. Tapping the image:icons/mb_menu.png[title="Menu"] button on Action Bar
+*Operation* : 
+
+. Tapping the image:icons/mb_menu.png[title="Menu"] button on the action bar
 . Tapping the image:icons/mb_cloud.png[title="Cloud"] Import menu item from the popup menu.
 
 *Illustration* :
@@ -380,7 +393,7 @@ This issue will be fixed in the future.
 image::screenshots/buffer-manager-menu-export-import.png[title="Export / Import"]
 
 [WARNING]
-Do not rotate device under importing / exporting a document.
+Do not rotate the device under exporting / importing a document.
 If rotate, this application will be crushed.
 In this case, you should do again.
 This issue will be fixed in the future.
@@ -388,7 +401,7 @@ This issue will be fixed in the future.
 
 == Trash
 
-image::screenshots/trash-activity.png[title="trash activity"]
+image::screenshots/trash-activity.png[title="Trash Activity"]
 
 You can manage trashed documents in this activity.
 
@@ -398,7 +411,7 @@ You can manage trashed documents in this activity.
 - Empty Trash
 
 
-=== Putting Back
+=== Put Back
 
 *Operation* :
 
@@ -406,7 +419,7 @@ You can manage trashed documents in this activity.
 . Tapping the image:icons/put-back.png[title="Put Back"] button on the action bar
 
 
-=== Emptying Trash
+=== Empty Trash
 
 *Operation* :
 
@@ -415,7 +428,7 @@ You can manage trashed documents in this activity.
 
 *Illustration* :
 
-image::screenshots/dialog-empty-trash.png[title="empty trash warning dialog"]
+image::screenshots/dialog-empty-trash.png[title="Confirm Empty Trash"]
 
 [WARNING]
 This action cause deleteing all documents in the trash forever.
