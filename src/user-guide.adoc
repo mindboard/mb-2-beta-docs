@@ -68,7 +68,7 @@ In order to switch from *Map Edit Mode* to *Node Edit Mode*, you can also use do
 
 image::screenshots/editor-activity-map-edit-mode.png[title="Editor Activity Map Edit Mode"]
 
-This mode is for builder your thoughts as mind-mapping.
+This mode is for building your thoughts as mind-mapping.
 
 
 ==== Zoom and Scroll
