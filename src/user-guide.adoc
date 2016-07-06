@@ -1,7 +1,7 @@
 
 = Introduction
 
-image::misc/mind-mapping-example.png[MindBoard 2 (Beta)]
+image::screenshots/mind-mapping-example.png[MindBoard 2 (Beta)]
 
 == About MindBoard 2 (Beta)
 
@@ -296,7 +296,7 @@ You can change another buffer using buffers menu.
 
 *Illustration* :
 
-image::misc/buffer-list.png[title="Buffer List"]
+image::screenshots/buffer-list.png[title="Buffer List"]
 
 [NOTE]
 The active document has check mark like image:icons/active-page.png[title="Active Page Check"].
@@ -346,7 +346,7 @@ Under losing network conectivity, this process does not work.
 
 *Illustration* :
 
-image::misc/buffer-manager-menu-open-trash.png[title="Open Trash"]
+image::screenshots/buffer-manager-menu-open-trash.png[title="Open Trash"]
 
 
 === Export
@@ -359,7 +359,7 @@ image::misc/buffer-manager-menu-open-trash.png[title="Open Trash"]
 
 *Illustration* :
 
-image::misc/buffer-manager-menu-export-import.png[title="Export / Import"]
+image::screenshots/buffer-manager-menu-export-import.png[title="Export / Import"]
 
 [WARNING]
 Do not rotate device under importing / exporting a document.
@@ -377,7 +377,7 @@ This issue will be fixed in the future.
 
 *Illustration* :
 
-image::misc/buffer-manager-menu-export-import.png[title="Export / Import"]
+image::screenshots/buffer-manager-menu-export-import.png[title="Export / Import"]
 
 [WARNING]
 Do not rotate device under importing / exporting a document.
@@ -423,7 +423,7 @@ This action cause deleteing all documents in the trash forever.
 
 == Settings
 
-image::misc/settings-main.png[title="Settings"]
+image::screenshots/settings-main.png[title="Settings"]
 
 *Features* :
 
@@ -437,6 +437,6 @@ image::misc/settings-main.png[title="Settings"]
 
 === Calibration Settings
 
-image::misc/settings-calibration.png[title="Calibration Settings"]
+image::screenshots/settings-calibration.png[title="Calibration Settings"]
 
 It is possible to keep 3 calibration presets of stylus.
