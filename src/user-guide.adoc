@@ -58,8 +58,8 @@ image::screenshots/editor-activity-map-edit-mode.png[Editor Activity]
 
 === Basic Policy
 
-* *By Stylus* : Outputting your ideas freely
-* *By Finger* : Editing and operating outputted your ideas.
+* *By Stylus* : Outputting your thought freely
+* *By Finger* : Editing and operating outputted your thought.
 
 
 === Mode
@@ -67,7 +67,7 @@ image::screenshots/editor-activity-map-edit-mode.png[Editor Activity]
 MindBoard 2 (Beta) has *two mode* in the editor activity.
 One is *Map Edit Mode*, the other is *Node Edit Mode*.  
 
-Use *Map Edit Mode* when building your thoughts as mind-mapping, and use *Node Edit Mode* when output your ideas on a branch.
+Use *Map Edit Mode* when building your thoughts as mind-mapping, and use *Node Edit Mode* when output your thought on a branch.
 In order to switch these modes by *double tap gesture with finger*.
 
 [NOTE]
@@ -133,7 +133,7 @@ image::items/a-handle-to-create-a-child-node-of-a-child-node.png[title="A Handle
 
 ==== Entering into Node Edit Mode
 
-Enter into Node Edit Mode to output your ideas on a center node or a branch.
+Enter into Node Edit Mode to put your thought on a center node or a branch.
 
 *Operation* : 
 
@@ -144,6 +144,13 @@ Enter into Node Edit Mode to output your ideas on a center node or a branch.
 image::items/a-node-handle-of-a-center-node.png[title="A Node Handle (A Center Node)"]
 
 image::items/a-node-handle-of-a-child-node.png[title="A Node Handle (A Child Node)"]
+
+
+==== Collapsing Nodes
+
+*Operation* : 
+
+. Long press a target *node handle* to collapse
 
 
 ==== Reorganizing Map ( Changing Node Structure )
@@ -188,13 +195,13 @@ image::items/edit-toolbar-of-map-editor.png[title="Edit Toolbar (Map Edit Mode)"
 
 image::screenshots/editor-activity-node-edit-mode.png[title="Editor Activity (Node Edit Mode)"]
 
-This mode is for outputing your ideas on a branch.
+This mode is for outputing your thought on a branch.
 
-There are 3 ways to output your ideas.
+There are 3 ways to output your thought.
 
-- Adding or deleting drawings by stylus
-- Inputing text by keyboard
-- Importing images
+- Add or deleting drawings by stylus
+- Input text by keyboard
+- Import images
 
 You can move ,resize, delete these items.
 
@@ -204,8 +211,8 @@ Currently PNG image format is supported.
 
 ==== Add or delete drawings by stylus 
 
-- Drawing your ideas by stylus under selecting the *pen tool*.
-- Deleting drawings by stylus under selecting the *eraser tool*.
+- Draw your thought by stylus under selecting the *pen tool*.
+- Delete drawings by stylus under selecting the *eraser tool*.
 
 *Illustration* :
 
