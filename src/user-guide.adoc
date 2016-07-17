@@ -166,7 +166,8 @@ image::items/a-node-handle-of-a-child-node.png[title="A Node Handle (A Child Nod
 image::items/a-branch-change-handle.png[title="A Branch Change Handle"]
 
 [NOTE]
-If the distance between node and parent node is too near, it does not appear a branch change handle. 
+If the distance between node and parent node is too near, the branch change handle does not appear. 
+
 
 ==== Deleting a Node ( a Branch )
 
