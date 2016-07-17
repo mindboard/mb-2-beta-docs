@@ -58,8 +58,8 @@ image::screenshots/editor-activity-map-edit-mode.png[Editor Activity]
 
 === Basic Policy
 
-* *By Stylus* : Outputting your thought freely
-* *By Finger* : Editing and operating outputted your thought.
+* *By Stylus* : Output your thought freely
+* *By Finger* : Edit and operate outputted your thought.
 
 
 === Mode
