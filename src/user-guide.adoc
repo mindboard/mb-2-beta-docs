@@ -25,6 +25,7 @@ And you can quickly build your map by using a few basic operations.
 * Multiple center nodes (mind maps) in one document 
 * PDF export
 * Import and export documents with Google Drive
+* Import support for MindBoard Pro Documents on Google Drive (version *0.7.8* and newer)
 
 
 === Requirement
